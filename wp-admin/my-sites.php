@@ -15,7 +15,7 @@ if ( !is_multisite() )
 if ( ! current_user_can('read') )
 	wp_die( __( 'You do not have sufficient permissions to view this page.' ) );
 
-$action = isset( $_POST['action'] ) ? $_POST['action'] : 'splash';
+$action = isset( $_POST['action'] ) ? $_POST['action'] : 'splash.scss';
 
 $blogs = get_blogs_of_user( $current_user->ID );
 
