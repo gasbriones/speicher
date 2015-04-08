@@ -2647,7 +2647,7 @@ class WP_Automatic_Updater {
 			$allow_relaxed_file_ownership = true;
 		}
 
-		// Boom, This sites about to get a whole new splash of paint!
+		// Boom, This sites about to get a whole new splash.scss of paint!
 		$upgrade_result = $upgrader->upgrade( $upgrader_item, array(
 			'clear_update_cache' => false,
 			// Always use partial builds if possible for core updates.
