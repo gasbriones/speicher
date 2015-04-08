@@ -26,7 +26,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="630">
+            <state line="35" column="0" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="404.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+            <state line="20" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="18" selection-start="2246" selection-end="2246" vertical-scroll-proportion="1.0074627" vertical-offset="0" max-vertical-offset="930">
+            <state line="45" column="18" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.62053573" vertical-offset="258" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="27.708334" vertical-offset="785" max-vertical-offset="1455">
+            <state line="8" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+            <state line="5" column="12" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="14" selection-start="886" selection-end="886" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="900">
+            <state line="23" column="14" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+            <state line="5" column="22" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="ie.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/css/ie.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="34" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="28" column="34" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="ie.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/css/ie.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="960">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -344,24 +344,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="876" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1600" height="876" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25321338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -384,41 +384,91 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="18" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="14" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/css/ie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="34" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/css/ie.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="26" selection-start="2779" selection-end="2779" vertical-scroll-proportion="-8.588235" vertical-offset="672" max-vertical-offset="1350">
-          <folding>
-            <element signature="e#6#581#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="74" column="26" selection-start="2779" selection-end="2779" vertical-scroll-proportion="-8.588235" vertical-offset="672" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="9" selection-start="463" selection-end="463" vertical-scroll-proportion="-6.25" vertical-offset="90" max-vertical-offset="47145">
-          <folding>
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="SELECT YEAR(..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="SELECT YEAR(..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="SELECT YEAR(..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="SELECT 1 as ..$wpdb-&gt;posts WHERE..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="SELECT MONTH..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="SELECT MONTH..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1423730242000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..$wpdb-&gt;posts WHERE..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="46" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-11.25" vertical-offset="180" max-vertical-offset="975">
-          <folding>
-            <element signature="e#6#209#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="30" column="46" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-11.25" vertical-offset="180" max-vertical-offset="975" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/css/ie.css">
@@ -444,14 +494,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="630">
+        <state line="35" column="0" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/404.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+        <state line="20" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
@@ -463,35 +513,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="27.708334" vertical-offset="785" max-vertical-offset="1455">
+        <state line="8" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+        <state line="5" column="12" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="886" selection-end="886" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="900">
+        <state line="23" column="14" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+        <state line="5" column="22" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/fspeicher-theme/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="18" selection-start="2246" selection-end="2246" vertical-scroll-proportion="1.0074627" vertical-offset="0" max-vertical-offset="930">
+        <state line="45" column="18" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.62053573" vertical-offset="258" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
