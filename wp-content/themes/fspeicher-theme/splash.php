@@ -37,13 +37,13 @@ Template Name: Splash
 <div class="main wrapper">
     <section class="pictures clearfix">
         <ul class="pics">
-            <li><img src="<?php bloginfo('template_url'); ?>/images/art-1.jpg"></li>
-            <li><img src="<?php bloginfo('template_url'); ?>/images/art-2.jpg"></li>
-            <li><img src="<?php bloginfo('template_url'); ?>/images/art-3.jpg"></li>
-            <li><img src="<?php bloginfo('template_url'); ?>/images/art-4.jpg"></li>
-            <li><img src="<?php bloginfo('template_url'); ?>/images/art-5.jpg"></li>
-            <li><img src="<?php bloginfo('template_url'); ?>/images/art-6.jpg"></li>
-            <li><img src="<?php bloginfo('template_url'); ?>/images/art-7.jpg"></li>
+            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-1.jpg"></li>
+            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-2.jpg"></li>
+            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-3.jpg"></li>
+            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-4.jpg"></li>
+            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-5.jpg"></li>
+            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-6.jpg"></li>
+            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-7.jpg"></li>
         </ul>
     </section>
     <section class="logo clearfix">
@@ -68,6 +68,7 @@ Template Name: Splash
 </footer>
 
 <script src="<?php bloginfo('template_url'); ?>/js/libs/jquery-2.1.3.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/libs/jquery.parallax.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/splash.js"></script>
 </body>
 </html>
