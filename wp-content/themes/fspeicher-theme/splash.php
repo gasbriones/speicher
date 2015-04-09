@@ -29,6 +29,7 @@ Template Name: Splash
     <!-- Links -->
     <link rel="shortcut icon" href="http://cdn.tn.com.ar/favicon.ico" type="image/x-icon"/>
     <link href="<?php bloginfo('template_url'); ?>/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="<?php bloginfo('template_url'); ?>/css/animations.css" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_url'); ?>/css/splash.css" rel="stylesheet" type="text/css">
 
     <title><?php bloginfo('name'); ?></title>
@@ -37,13 +38,13 @@ Template Name: Splash
 <div class="main wrapper">
     <section class="pictures clearfix">
         <ul class="pics">
-            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-1.jpg"></li>
-            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-2.jpg"></li>
-            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-3.jpg"></li>
-            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-4.jpg"></li>
-            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-5.jpg"></li>
-            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-6.jpg"></li>
-            <li class="parallax-layer"><img src="<?php bloginfo('template_url'); ?>/images/art-7.jpg"></li>
+            <li class="frames frame-1"><img src="<?php bloginfo('template_url'); ?>/images/art-1.jpg"></li>
+            <li class="frames frame-2"><img src="<?php bloginfo('template_url'); ?>/images/art-2.jpg"></li>
+            <li class="frames frame-3"><img src="<?php bloginfo('template_url'); ?>/images/art-3.jpg"></li>
+            <li class="frames frame-4"><img src="<?php bloginfo('template_url'); ?>/images/art-4.jpg"></li>
+            <li class="frames frame-4"><img src="<?php bloginfo('template_url'); ?>/images/art-5.jpg"></li>
+            <li class="frames frame-6"><img src="<?php bloginfo('template_url'); ?>/images/art-6.jpg"></li>
+            <li class="frames frame-7"><img src="<?php bloginfo('template_url'); ?>/images/art-7.jpg"></li>
         </ul>
     </section>
     <section class="logo clearfix">
