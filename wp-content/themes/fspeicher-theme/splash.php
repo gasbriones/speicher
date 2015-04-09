@@ -28,16 +28,44 @@ Template Name: Splash
     <meta content="@gasbriones" name="twitter:creator">
     <!-- Links -->
     <link rel="shortcut icon" href="http://cdn.tn.com.ar/favicon.ico" type="image/x-icon"/>
+    <link href="<?php bloginfo('template_url'); ?>/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_url'); ?>/css/splash.css" rel="stylesheet" type="text/css">
 
     <title><?php bloginfo('name'); ?></title>
 </head>
 <body class="splash">
-<div class="main">
-    <section class="pictures">
-
+<div class="main wrapper">
+    <section class="pictures clearfix">
+        <ul class="pics">
+            <li><img src="<?php bloginfo('template_url'); ?>/images/art-1.jpg"></li>
+            <li><img src="<?php bloginfo('template_url'); ?>/images/art-2.jpg"></li>
+            <li><img src="<?php bloginfo('template_url'); ?>/images/art-3.jpg"></li>
+            <li><img src="<?php bloginfo('template_url'); ?>/images/art-4.jpg"></li>
+            <li><img src="<?php bloginfo('template_url'); ?>/images/art-5.jpg"></li>
+            <li><img src="<?php bloginfo('template_url'); ?>/images/art-6.jpg"></li>
+            <li><img src="<?php bloginfo('template_url'); ?>/images/art-7.jpg"></li>
+        </ul>
+    </section>
+    <section class="logo clearfix">
+        <a href="#">
+            <span class="name">Francisco</span>
+            <span class="last-name">Speicher</span>
+        </a>
     </section>
 </div>
+<footer class="footer clearfix">
+    <ul class="social">
+        <li>
+            <a href="#" class="fb"></a>
+        </li>
+        <li>
+            <a href="#" class="tw"></a>
+        </li>
+        <li>
+            <a href="#" class="ins"></a>
+        </li>
+    </ul>
+</footer>
 
 <script src="<?php bloginfo('template_url'); ?>/js/libs/jquery-2.1.3.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/splash.js"></script>

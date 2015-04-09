@@ -8,13 +8,85 @@
   font-style: normal;
 }
 
+html{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-size: 1em;
   font-family: 'gotham', arial, sans-serif;
   height: 100%;
+  background: #652D90;
 }
 
-.splash{
-  background: #652D90;
+a{
+  text-decoration: none;
+}
+
+.wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: table;
+}
+.pictures{
+  .pics{
+    li{
+      float: left;
+    }
+  }
+}
+
+.logo{
+  height: 235px;
+  text-align: center;
+  a{
+    color: #fedc00;
+    display: table;
+    font-weight: bold;
+    margin: 3.15% auto 0;
+    text-transform: uppercase;
+    .name{
+      font-size: (75em/16);
+      display: block;
+    }
+    .last-name{
+      font-size: (88em/16);
+      display: block;
+    }
+  }
+}
+.footer{
+  background: #231F20;
+  height: (105em/16);
+  width: 100%;
+  border-top: solid 5px #FEDC00;
+  .social{
+    margin: (105px-45)/2 auto 0;
+    display: table;
+    li{
+      float: left;
+      a{
+        width: 45px;
+        height: 45px;
+        background: red;
+        display: block;
+        margin-right:32px;
+        background: url("../images/social-icon.png") no-repeat;
+        text-indent: 999999em;
+
+        &.fb{
+          background-position:0 0 ;
+        }
+        &.tw{
+          background-position:-75px 0 ;
+        }
+        &.ins{
+          background-position:-153px 0 ;
+        }
+      }
+    }
+  }
 }
