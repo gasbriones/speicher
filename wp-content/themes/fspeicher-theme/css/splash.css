@@ -68,15 +68,4 @@ a {
         .footer .social li a.ins {
           background-position: -153px 0; }
 
-/* The element to apply the animation to */
-.frame-1 {
-  animation: open .5s linear .5s, squeeze 0.6s infinite alternate; }
-
-.frame-2 {
-  -webkit-animation: open 0.4s linear forwards, squeeze 0.6s linear 5.5s forwards;
-  -moz-animation: open 0.4s linear forwards, squeeze 0.6s linear 5.5s forwards;
-  -ms-animation: open 0.4s linear forwards, squeeze 0.6s linear 5.5s forwards;
-  animation: open 0.4s linear forwards, squeeze 0.6s linear 5.5s forwards;
-  animation-delay: 0.2s; }
-
 /*# sourceMappingURL=splash.css.map */
