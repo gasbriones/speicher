@@ -1,0 +1,190 @@
+@import 'mixin.scss';
+
+@font-face {
+  font-family: 'gotham';
+  src: url('../fonts/gotham-bold.eot');
+  src: url('../fonts/gotham-bold.eot?#iefix') format("embedded-opentype"), url('../fonts/gotham-bold.woff') format("woff"), url('../fonts/gotham-bold.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 1077px;
+  margin: 0 auto;
+  display: table;
+  position: relative;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'gotham', arial, sans-serif;
+  height: 100%;
+  background: #231F20;
+
+  &.splash{
+    background: #652D90;
+  }
+  &.home{
+    background: #231F20;
+  }
+}
+header{
+  background: #652D90;
+  padding-top:(45em/16) ;
+  border-bottom: solid 5px #FEDC00;
+
+  .header-logo{
+    float: left;
+    width: (279em/16);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-top:10px;
+
+    .name{
+      font-size: (38em/16);
+      display: block;
+    }
+
+    .last-name{
+      font-size: (46em/16);
+      display: block;
+    }
+  }
+
+  .menu{
+    float: left;
+    margin-left: (97em/16);
+    .item{
+      float: left;
+      text-align: center;
+      text-transform: uppercase;
+
+
+
+
+      a{
+        $em:(90em/16);
+        width: $em;
+        height: $em;
+        display: block;
+        color: #000000;
+        position: relative;
+
+        .item-bg{
+          width: 100%;
+          height: 100%;
+          display: table;
+          border-top: solid 3px #000;
+          border-left: solid 3px #000;
+          @include box_sizing(border-box);
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background: #FEDC00;
+
+          .bg{
+            background: url("../images/menu-bg.jpg");
+            width: 100%;
+            height: 100%;
+            display: table;
+
+            &.hm{
+              background-position:0 0;
+            }
+            &.rs{
+              background-position:-90px 0;
+            }
+            &.obr{
+              background-position:-180px 0;
+            }
+            &.pre{
+              background-position:-270px 0;
+            }
+            &.con{
+              background-position:-360px 0;
+            }
+          }
+
+          span{
+            line-height: 20px;
+            font-size: (14em/16);
+            position: absolute;
+            bottom: 3px;
+            width: 100%;
+            left: 0;
+            display: none;
+          }
+
+        }
+      }
+      &:last-child{
+        .item-bg{
+          border-right: solid 3px #000;
+        }
+      }
+
+      &.active{
+        .item-bg{
+          height: 30px;
+        }
+        .bg{
+          display: none !important;
+        }
+        span{
+          display: block !important;
+        }
+      }
+    }
+  }
+
+}
+//Home class
+.home{
+  .header-logo{
+    background: #FEDC00;
+  }
+}
+
+.main{
+  padding-top: (40em/16);
+}
+
+
+.bx-wrapper {
+  .bx-viewport{
+    border: none;
+    box-shadow: none;
+    left: 0;
+  }
+  .bx-controls-direction a{
+    height: 39px;
+    width: 20px;
+  }
+  .bx-prev{
+    background: url("../images/bx-controls.png") 0 0;
+    left: -50px;
+  }
+  .bx-next{
+    background: url("../images/bx-controls.png") -20px 0;
+    right: -50px;
+    &:hover{
+      background: url("../images/bx-controls.png") -20px 0;
+    }
+  }
+}
+
+.carousel{
+  background: #FEDC00;
+  padding: (30em/16) 0;
+
+  .bx-wrapper{
+    max-width: 85% !important;
+  }
+}
+
