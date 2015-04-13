@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <?php include 'layout/head.php' ?>
 <body class="splash">
-<div class="main wrapper">
+<div class="main wrapper-splash">
     <section class="pictures clearfix">
         <ul class="pics">
             <li class="frames" id="frame-1"><img src="images/art-1.jpg"></li>

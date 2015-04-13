@@ -12,12 +12,18 @@ a{
   text-decoration: none;
 }
 
+.wrapper-splash{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: table;
+}
+
 .wrapper{
   width: 100%;
   max-width: 1077px;
   margin: 0 auto;
   display: table;
-  position: relative;
 }
 
 body {

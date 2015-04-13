@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-
-
     $('.menu .item').hover(function(){
         $(this).find('.item-bg').stop().animate({height:'30px'},250).find('.bg').stop().animate({opacity:0},250,function(){
             $(this).parent().find('span').show();
