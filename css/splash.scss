@@ -1,0 +1,94 @@
+@import 'mixin.scss';
+
+@font-face {
+  font-family: 'gotham';
+  src: url('../fonts/gotham-bold.eot');
+  src: url('../fonts/gotham-bold.eot?#iefix') format("embedded-opentype"), url('../fonts/gotham-bold.woff') format("woff"), url('../fonts/gotham-bold.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pictures{
+  .pics{
+    li{
+      float: left;
+    }
+  }
+}
+
+.logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top:-(268px/2);
+  margin-left:-(800px/2);
+  z-index: 999;
+  display: none;
+}
+
+.letters{
+  height: 235px;
+  text-align: center;
+
+  a{
+    color: #fedc00;
+    display: none;
+    display: table;
+    font-weight: bold;
+    margin: 3.15% auto 0;
+    text-transform: uppercase;
+    .name{
+      font-size: (75em/16);
+      display: block;
+    }
+    .last-name{
+      font-size: (88em/16);
+      display: block;
+    }
+  }
+}
+.footer{
+  background: #231F20;
+  height: 105px;
+  width: 100%;
+  border-top: solid 5px #FEDC00;
+
+  .social{
+    position: absolute;
+    bottom: 30px;
+    display: none;
+
+    left:50%;
+    margin-left:-(199px/2);
+
+    li{
+      float: left;
+      a{
+        width: 45px;
+        height: 45px;
+        background: red;
+        display: block;
+        margin-left:32px;
+        background: url("../images/social-icon.png") no-repeat;
+        text-indent: 999999em;
+        &.fb{
+          background-position:0 0 ;
+        }
+        &.tw{
+          background-position:-75px 0 ;
+        }
+        &.ins{
+          background-position:-153px 0 ;
+        }
+      }
+
+      &:first-child{
+        a{
+          margin-left:0;
+        }
+
+      }
+    }
+  }
+}
+
