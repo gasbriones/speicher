@@ -1,5 +1,5 @@
 <?php
-    $_SESSION['active'] = "home";
+$_SESSION['active'] = "resena";
 ?>
 <!DOCTYPE html>
 <?php include 'layout/head.php' ?>

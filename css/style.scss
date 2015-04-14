@@ -17,6 +17,7 @@ a{
   max-width: 1280px;
   margin: 0 auto;
   display: table;
+
 }
 
 .wrapper{
@@ -24,6 +25,8 @@ a{
   max-width: 1077px;
   margin: 0 auto;
   display: table;
+  position: relative;
+
 }
 
 body {
@@ -70,9 +73,6 @@ header{
       float: left;
       text-align: center;
       text-transform: uppercase;
-
-
-
 
       a{
         $em:(90em/16);
@@ -145,6 +145,59 @@ header{
         span{
           display: block !important;
         }
+      }
+    }
+  }
+
+  .social-small{
+    position: absolute;
+    top: 0;
+    right:0;
+
+    li{
+      float: left;
+
+      a{
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin-left:12px;
+        background: url("../images/social-icon-small.png") no-repeat;
+
+        &.fb{
+          background-position:0 0 ;
+        }
+
+        &.tw{
+          background-position:-47px 0 ;
+        }
+
+        &.ins{
+          background-position:-94px 0 ;
+        }
+      }
+
+      &:first-child{
+        a{
+          margin-left:0;
+        }
+      }
+    }
+  }
+  .lang{
+    position: absolute;
+    top: (40em/16);
+    right:0;
+    text-transform: uppercase;
+
+    a{
+      color:#FEDC00;
+      font-size:(14em/16);
+      &.active{
+        color: #A381BC;
+      }
+      &:hover{
+        color: #A381BC;
       }
     }
   }
