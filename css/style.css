@@ -46,10 +46,12 @@ header {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    padding-top: 10px; }
+    display: table-row;
+    height: 90px; }
     header .header-logo .name {
       font-size: 2.375em;
-      display: block; }
+      display: block;
+      margin-top: 10px; }
     header .header-logo .last-name {
       font-size: 2.875em;
       display: block; }
@@ -69,7 +71,6 @@ header {
         header .menu .item a .item-bg {
           width: 100%;
           height: 100%;
-          display: table;
           border-top: solid 3px #000;
           border-left: solid 3px #000;
           -webkit-box-sizing: border-box;

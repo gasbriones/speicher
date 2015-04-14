@@ -26,7 +26,16 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="241" column="22" selection-start="4482" selection-end="4482" vertical-scroll-proportion="0.46766916" vertical-offset="3304" max-vertical-offset="4365">
+            <state line="67" column="21" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.45864663" vertical-offset="700" max-vertical-offset="4395">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="29" selection-start="94" selection-end="98" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -164,6 +173,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="speicher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speicher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speicher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,9 +535,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/layout/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="94" selection-end="98" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="22" selection-start="4482" selection-end="4482" vertical-scroll-proportion="0.46766916" vertical-offset="3304" max-vertical-offset="4365">
+        <state line="67" column="21" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.45864663" vertical-offset="700" max-vertical-offset="4395">
           <folding />
         </state>
       </provider>
