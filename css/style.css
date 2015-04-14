@@ -4,6 +4,12 @@
   src: url("../fonts/gotham-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-bold.woff") format("woff"), url("../fonts/gotham-bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'gotham';
+  src: url("../fonts/gotham-medium.eot");
+  src: url("../fonts/gotham-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-medium.woff") format("woff"), url("../fonts/gotham-medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
 a {
   text-decoration: none; }
 
@@ -139,6 +145,29 @@ header {
 
 .home .header-logo {
   background: #FEDC00; }
+.home .content {
+  background: #FEDC00; }
+  .home .content .bx-wrapper {
+    max-width: 85% !important; }
+
+.resena {
+  background: #58D4C6; }
+  .resena .header-logo {
+    background: #FEDC00;
+    color: #58D4C6; }
+  .resena .content {
+    background: url("../images/resena-bg.jpg") #000000 top center no-repeat;
+    padding: 0;
+    height: 41.5em; }
+    .resena .content article {
+      background: #FEDC00;
+      padding: 1em;
+      font-size: 0.875em !important;
+      width: 18.92857em;
+      font-weight: 400; }
+      .resena .content article h4 {
+        font-weight: bold;
+        margin-bottom: 1.14286em; }
 
 .main {
   padding-top: 2.5em; }
@@ -159,8 +188,7 @@ header {
   .bx-wrapper .bx-next:hover {
     background: url("../images/bx-controls.png") -20px 0; }
 
-.carousel {
-  background: #FEDC00;
+.content {
   padding: 1.875em 0; }
-  .carousel .bx-wrapper {
-    max-width: 85% !important; }
+
+/*# sourceMappingURL=style.css.map */

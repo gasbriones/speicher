@@ -8,6 +8,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'gotham';
+  src: url('../fonts/gotham-medium.eot');
+  src: url('../fonts/gotham-medium.eot?#iefix') format("embedded-opentype"), url('../fonts/gotham-medium.woff') format("woff"), url('../fonts/gotham-medium.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 a{
   text-decoration: none;
 }
@@ -208,6 +216,39 @@ header{
   .header-logo{
     background: #FEDC00;
   }
+  .content{
+    background: #FEDC00;
+    .bx-wrapper{
+      max-width: 85% !important;
+    }
+  }
+}
+//Reseña class
+.resena{
+  background:#58D4C6;
+  .header-logo{
+    background: #FEDC00;
+    color: #58D4C6;
+  }
+
+  .content{
+    background: url("../images/resena-bg.jpg") #000000 top center no-repeat;
+    padding: 0;
+    height: (664em/16);
+    article{
+      background:#FEDC00;
+      padding: 1em;
+      font-size: (14em/16) !important;
+      width: (265em/14);
+      font-weight: 400;
+
+
+      h4{
+        font-weight: bold;
+        margin-bottom: (16em/14);
+      }
+    }
+  }
 }
 
 .main{
@@ -238,12 +279,7 @@ header{
   }
 }
 
-.carousel{
-  background: #FEDC00;
+.content{
   padding: (30em/16) 0;
-
-  .bx-wrapper{
-    max-width: 85% !important;
-  }
 }
 
