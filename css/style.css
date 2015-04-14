@@ -17,7 +17,8 @@ a {
   width: 100%;
   max-width: 1077px;
   margin: 0 auto;
-  display: table; }
+  display: table;
+  position: relative; }
 
 body {
   font-size: 1em;
@@ -103,6 +104,38 @@ header {
         display: none !important; }
       header .menu .item.active span {
         display: block !important; }
+  header .social-small {
+    position: absolute;
+    top: 0;
+    right: 0; }
+    header .social-small li {
+      float: left; }
+      header .social-small li a {
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin-left: 12px;
+        background: url("../images/social-icon-small.png") no-repeat; }
+        header .social-small li a.fb {
+          background-position: 0 0; }
+        header .social-small li a.tw {
+          background-position: -47px 0; }
+        header .social-small li a.ins {
+          background-position: -94px 0; }
+      header .social-small li:first-child a {
+        margin-left: 0; }
+  header .lang {
+    position: absolute;
+    top: 2.5em;
+    right: 0;
+    text-transform: uppercase; }
+    header .lang a {
+      color: #FEDC00;
+      font-size: 0.875em; }
+      header .lang a.active {
+        color: #A381BC; }
+      header .lang a:hover {
+        color: #A381BC; }
 
 .home .header-logo {
   background: #FEDC00; }
@@ -131,5 +164,3 @@ header {
   padding: 1.875em 0; }
   .carousel .bx-wrapper {
     max-width: 85% !important; }
-
-/*# sourceMappingURL=style.css.map */

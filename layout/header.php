@@ -46,5 +46,20 @@
                 </a>
             </li>
         </ul>
-        <div>
+        <ul class="social-small">
+            <li>
+                <a href="#" class="fb"></a>
+            </li>
+            <li>
+                <a href="#" class="tw"></a>
+            </li>
+            <li>
+                <a href="#" class="ins"></a>
+            </li>
+        </ul>
+        <ul class="lang">
+            <li><a href="#" class="active">Español</a></li>
+            <li><a href="#">English</a></li>
+        </ul>
+    </div>
 </header>
