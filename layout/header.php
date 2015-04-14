@@ -5,16 +5,16 @@
             <span class="last-name">Speicher</span>
         </div>
         <ul class="menu">
-            <li class="item active">
-                <a href="#">
+            <li class="item <?php echo $active = $_SESSION["active"]== 'home' ? 'active' : ''; ?>">
+                <a href="home.php">
                     <div class="item-bg">
                         <div class="bg"></div>
                         <span>Home</span>
                     </div>
                 </a>
             </li>
-            <li class="item">
-                <a href="#">
+            <li class="item <?php echo $active = $_SESSION["active"]== 'resena' ? 'active' : ''; ?>">
+                <a href="resena.php">
                     <div class="item-bg">
                         <div class="bg rs"></div>
                         <span>Reseña</span>
