@@ -169,6 +169,8 @@ header {
       .resena .content article h4 {
         font-weight: bold;
         margin-bottom: 1.14286em; }
+      .resena .content article p {
+        line-height: 16px; }
 
 .main {
   padding-top: 2.5em; }

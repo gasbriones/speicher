@@ -26,7 +26,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="21" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.45864663" vertical-offset="700" max-vertical-offset="4395">
+            <state line="254" column="7" selection-start="4714" selection-end="4714" vertical-scroll-proportion="0.7293233" vertical-offset="3325" max-vertical-offset="4440">
               <folding />
             </state>
           </provider>
@@ -81,7 +81,13 @@
         <entry file="file://$PROJECT_DIR$/resena.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="7" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
-              <folding />
+              <folding>
+                <marker date="1429035656178" expanded="true" signature="112:1079" placeholder="..." />
+                <marker date="1429035656178" expanded="true" signature="176:1071" placeholder="..." />
+                <marker date="1429035656178" expanded="true" signature="206:1064" placeholder="..." />
+                <marker date="1429035656178" expanded="true" signature="224:1049" placeholder="..." />
+                <marker date="1429035656178" expanded="true" signature="280:1030" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -377,7 +383,13 @@
     <entry file="file://$PROJECT_DIR$/resena.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
-          <folding />
+          <folding>
+            <marker date="1429035656178" expanded="true" signature="112:1079" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="176:1071" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="206:1064" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="224:1049" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="280:1030" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -419,7 +431,13 @@
     <entry file="file://$PROJECT_DIR$/resena.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
-          <folding />
+          <folding>
+            <marker date="1429035656178" expanded="true" signature="112:1079" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="176:1071" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="206:1064" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="224:1049" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="280:1030" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -531,7 +549,13 @@
     <entry file="file://$PROJECT_DIR$/resena.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="7" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
-          <folding />
+          <folding>
+            <marker date="1429035656178" expanded="true" signature="112:1079" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="176:1071" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="206:1064" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="224:1049" placeholder="..." />
+            <marker date="1429035656178" expanded="true" signature="280:1030" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -544,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="21" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.45864663" vertical-offset="700" max-vertical-offset="4395">
+        <state line="254" column="7" selection-start="4714" selection-end="4714" vertical-scroll-proportion="0.7293233" vertical-offset="3325" max-vertical-offset="4440">
           <folding />
         </state>
       </provider>
