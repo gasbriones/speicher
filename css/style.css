@@ -10,6 +10,12 @@
   src: url("../fonts/gotham-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-medium.woff") format("woff"), url("../fonts/gotham-medium.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
+@font-face {
+  font-family: 'gotham-black';
+  src: url("../fonts/gotham-black.eot");
+  src: url("../fonts/gotham-black.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-black.woff") format("woff"), url("../fonts/gotham-black.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
 a {
   text-decoration: none; }
 
@@ -42,10 +48,10 @@ header {
   border-bottom: solid 5px #FEDC00; }
   header .header-logo {
     float: left;
+    font-family: gotham-black;
     width: 17.4375em;
     text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
     display: table-row;
     height: 90px; }
     header .header-logo .name {
@@ -157,20 +163,29 @@ header {
     background: #FEDC00;
     color: #58D4C6; }
   .resena .content {
-    background: url("../images/resena-bg.jpg") #000000 top center no-repeat;
+    background: url("../images/resena-bg.jpg") black top center no-repeat;
     padding: 0;
     height: 41.5em; }
     .resena .content article {
       background: #FEDC00;
       padding: 1em;
       font-size: 0.875em !important;
-      width: 18.92857em;
+      width: 18.78571em;
       font-weight: 400; }
       .resena .content article h4 {
-        font-weight: bold;
+        font-family: gotham-black;
         margin-bottom: 1.14286em; }
       .resena .content article p {
-        line-height: 16px; }
+        font-weight: 300;
+        letter-spacing: -0.07143em;
+        line-height: 1.28571em;
+        word-spacing: 0.21429em; }
+
+.obras {
+  background: #FF1A00; }
+  .obras .header-logo {
+    background: #FEDC00;
+    color: #FF1A00; }
 
 .main {
   padding-top: 2.5em; }
@@ -193,5 +208,3 @@ header {
 
 .content {
   padding: 1.875em 0; }
-
-/*# sourceMappingURL=style.css.map */

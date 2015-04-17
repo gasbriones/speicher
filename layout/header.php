@@ -21,8 +21,8 @@
                     </div>
                 </a>
             </li>
-            <li class="item">
-                <a href="#">
+            <li class="item <?php echo $active = $_SESSION["active"]== 'obras' ? 'active' : ''; ?>">
+                <a href="obras.php">
                     <div class="item-bg">
                         <div class="bg obr"></div>
                         <span>Obras</span>
