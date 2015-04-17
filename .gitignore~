@@ -10,7 +10,6 @@ crash.log
 nanoc.yaml
 build.xml
 .idea/
-.idea/*
 .DS_Store
 *.save
 Gemfile.lock
