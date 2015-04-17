@@ -12,8 +12,15 @@ $(document).ready(function () {
         }
     });
 
-    $('.slider').bxSlider({
-        pager: false
-    });
+
+    switch ($('body').attr('class')){
+        case 'home':
+            $('.slider').bxSlider({
+                pager: false
+            });
+        break;
+    }
+
+
 });
 

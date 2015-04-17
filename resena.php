@@ -15,5 +15,7 @@ $_SESSION['active'] = "resena";
         </article>
     </section>
 </div>
+<script src="js/libs/jquery-2.1.3.min.js"></script>
+<script src="js/init.js"></script>
 </body>
 </hmtl>

@@ -45,7 +45,7 @@ body {
 header {
   background: #652D90;
   padding-top: 2.8125em;
-  border-bottom: solid 5px #FEDC00; }
+  border-bottom: solid 4px #FEDC00; }
   header .header-logo {
     float: left;
     font-family: gotham-black;
@@ -150,6 +150,25 @@ header {
       header .lang a:hover {
         color: #A381BC; }
 
+.main {
+  padding-top: 2.5em; }
+  .main .content {
+    padding: 1.875em 0; }
+    .main .content article {
+      background: #FEDC00;
+      padding: 1.20em;
+      font-size: 0.875em !important;
+      width: 18.21429em;
+      font-weight: 400; }
+      .main .content article h4 {
+        font-family: gotham-black;
+        margin-bottom: 1.14286em; }
+      .main .content article p {
+        font-weight: 300;
+        letter-spacing: -0.07143em;
+        line-height: 1.28571em;
+        word-spacing: 0.21429em; }
+
 .home .header-logo {
   background: #FEDC00; }
 .home .content {
@@ -163,32 +182,59 @@ header {
     background: #FEDC00;
     color: #58D4C6; }
   .resena .content {
-    background: url("../images/resena-bg.jpg") black top center no-repeat;
     padding: 0;
-    height: 41.5em; }
-    .resena .content article {
-      background: #FEDC00;
-      padding: 1em;
-      font-size: 0.875em !important;
-      width: 18.78571em;
-      font-weight: 400; }
-      .resena .content article h4 {
-        font-family: gotham-black;
-        margin-bottom: 1.14286em; }
-      .resena .content article p {
-        font-weight: 300;
-        letter-spacing: -0.07143em;
-        line-height: 1.28571em;
-        word-spacing: 0.21429em; }
+    height: 41.5em;
+    background: url("../images/resena-bg.jpg") #000000 top center no-repeat; }
 
 .obras {
   background: #FF1A00; }
   .obras .header-logo {
     background: #FEDC00;
     color: #FF1A00; }
-
-.main {
-  padding-top: 2.5em; }
+  .obras .content {
+    padding: 0;
+    height: 41.5em;
+    background: #231F20; }
+  .obras .gallery-menu {
+    padding: 1.2em; }
+    .obras .gallery-menu .gallery-type li {
+      float: left;
+      line-height: 1em;
+      padding: 0.1875rem 0.625rem; }
+      .obras .gallery-menu .gallery-type li span {
+        font-size: 0.875rem;
+        line-height: 1em;
+        color: #FEDC00;
+        padding: 0.1875rem 0.625rem;
+        cursor: pointer; }
+        .obras .gallery-menu .gallery-type li span.active, .obras .gallery-menu .gallery-type li span:hover {
+          background: #FEDC00;
+          color: #000000; }
+      .obras .gallery-menu .gallery-type li ul {
+        margin-top: 0.3125rem; }
+        .obras .gallery-menu .gallery-type li ul > li {
+          float: none;
+          color: #7B6B13;
+          text-align: left;
+          font-size: 0.875rem;
+          cursor: pointer; }
+          .obras .gallery-menu .gallery-type li ul > li:hover {
+            background: #7B6B13;
+            color: #FEDC00; }
+        .obras .gallery-menu .gallery-type li ul.years li {
+          text-align: center; }
+  .obras .thumb-container {
+    clear: both;
+    padding: 1em 1.2em;
+    width: 18.75rem; }
+    .obras .thumb-container .thumb li {
+      float: left;
+      border: solid 2px #FEDC00;
+      margin: 0 0.625rem 0.625rem 0;
+      background: #FEDC00;
+      cursor: pointer; }
+      .obras .thumb-container .thumb li:hover img {
+        opacity: .6; }
 
 .bx-wrapper .bx-viewport {
   border: none;
@@ -206,5 +252,4 @@ header {
   .bx-wrapper .bx-next:hover {
     background: url("../images/bx-controls.png") -20px 0; }
 
-.content {
-  padding: 1.875em 0; }
+/*# sourceMappingURL=style.css.map */
