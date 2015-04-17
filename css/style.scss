@@ -8,19 +8,26 @@
   font-style: normal;
 }
 
-a{
+@font-face {
+  font-family: 'gotham';
+  src: url('../fonts/gotham-medium.eot');
+  src: url('../fonts/gotham-medium.eot?#iefix') format("embedded-opentype"), url('../fonts/gotham-medium.woff') format("woff"), url('../fonts/gotham-medium.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
   text-decoration: none;
 }
 
-.wrapper-splash{
+.wrapper-splash {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
   display: table;
-
 }
 
-.wrapper{
+.wrapper {
   width: 100%;
   max-width: 1077px;
   margin: 0 auto;
@@ -35,57 +42,58 @@ body {
   height: 100%;
   background: #231F20;
 
-  &.splash{
+  &.splash {
     background: #652D90;
   }
-  &.home{
+  &.home {
     background: #231F20;
   }
 }
-header{
+
+header {
   background: #652D90;
-  padding-top:(45em/16) ;
+  padding-top: (45em/16);
   border-bottom: solid 5px #FEDC00;
 
-  .header-logo{
+  .header-logo {
     float: left;
     width: (279em/16);
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    padding-top:10px;
-
-    .name{
+    display: table-row;
+    height: 90px;
+    .name {
       font-size: (38em/16);
       display: block;
+      margin-top:10px ;
     }
 
-    .last-name{
+    .last-name {
       font-size: (46em/16);
       display: block;
     }
   }
 
-  .menu{
+  .menu {
     float: left;
     margin-left: (97em/16);
-    .item{
+    .item {
       float: left;
       text-align: center;
       text-transform: uppercase;
 
-      a{
-        $em:(90em/16);
+      a {
+        $em: (90em/16);
         width: $em;
         height: $em;
         display: block;
         color: #000000;
         position: relative;
 
-        .item-bg{
+        .item-bg {
           width: 100%;
           height: 100%;
-          display: table;
           border-top: solid 3px #000;
           border-left: solid 3px #000;
           @include box_sizing(border-box);
@@ -94,30 +102,30 @@ header{
           left: 0;
           background: #FEDC00;
 
-          .bg{
+          .bg {
             background: url("../images/menu-bg.jpg");
             width: 100%;
             height: 100%;
             display: table;
 
-            &.hm{
-              background-position:0 0;
+            &.hm {
+              background-position: 0 0;
             }
-            &.rs{
-              background-position:-90px 0;
+            &.rs {
+              background-position: -90px 0;
             }
-            &.obr{
-              background-position:-180px 0;
+            &.obr {
+              background-position: -180px 0;
             }
-            &.pre{
-              background-position:-270px 0;
+            &.pre {
+              background-position: -270px 0;
             }
-            &.con{
-              background-position:-360px 0;
+            &.con {
+              background-position: -360px 0;
             }
           }
 
-          span{
+          span {
             line-height: 20px;
             font-size: (14em/16);
             position: absolute;
@@ -129,121 +137,154 @@ header{
 
         }
       }
-      &:last-child{
-        .item-bg{
+
+      &:last-child {
+        .item-bg {
           border-right: solid 3px #000;
         }
       }
 
-      &.active{
-        .item-bg{
+      &.active {
+        .item-bg {
           height: 30px;
         }
-        .bg{
+        .bg {
           display: none !important;
         }
-        span{
+        span {
           display: block !important;
         }
       }
     }
   }
 
-  .social-small{
+  .social-small {
     position: absolute;
     top: 0;
-    right:0;
+    right: 0;
 
-    li{
+    li {
       float: left;
 
-      a{
+      a {
         width: 30px;
         height: 30px;
         display: block;
-        margin-left:12px;
+        margin-left: 12px;
         background: url("../images/social-icon-small.png") no-repeat;
 
-        &.fb{
-          background-position:0 0 ;
+        &.fb {
+          background-position: 0 0;
         }
 
-        &.tw{
-          background-position:-47px 0 ;
+        &.tw {
+          background-position: -47px 0;
         }
 
-        &.ins{
-          background-position:-94px 0 ;
+        &.ins {
+          background-position: -94px 0;
         }
       }
 
-      &:first-child{
-        a{
-          margin-left:0;
+      &:first-child {
+        a {
+          margin-left: 0;
         }
       }
     }
   }
-  .lang{
+
+  .lang {
     position: absolute;
     top: (40em/16);
-    right:0;
+    right: 0;
     text-transform: uppercase;
 
-    a{
-      color:#FEDC00;
-      font-size:(14em/16);
-      &.active{
+    a {
+      color: #FEDC00;
+      font-size: (14em/16);
+      &.active {
         color: #A381BC;
       }
-      &:hover{
+      &:hover {
         color: #A381BC;
       }
     }
   }
 
 }
+
 //Home class
-.home{
-  .header-logo{
+.home {
+  .header-logo {
     background: #FEDC00;
+  }
+  .content {
+    background: #FEDC00;
+    .bx-wrapper {
+      max-width: 85% !important;
+    }
   }
 }
 
-.main{
+//Reseña class
+.resena {
+  background: #58D4C6;
+  .header-logo {
+    background: #FEDC00;
+    color: #58D4C6;
+  }
+
+  .content {
+    background: url("../images/resena-bg.jpg") #000000 top center no-repeat;
+    padding: 0;
+    height: (664em/16);
+    article {
+      background: #FEDC00;
+      padding: 1em;
+      font-size: (14em/16) !important;
+      width: (265em/14);
+      font-weight: 400;
+
+      h4 {
+        font-weight: bold;
+        margin-bottom: (16em/14);
+      }
+      p{
+        line-height: 16px;
+      }
+    }
+  }
+}
+
+.main {
   padding-top: (40em/16);
 }
 
-
 .bx-wrapper {
-  .bx-viewport{
+  .bx-viewport {
     border: none;
     box-shadow: none;
     left: 0;
   }
-  .bx-controls-direction a{
+  .bx-controls-direction a {
     height: 39px;
     width: 20px;
   }
-  .bx-prev{
+  .bx-prev {
     background: url("../images/bx-controls.png") 0 0;
     left: -50px;
   }
-  .bx-next{
+  .bx-next {
     background: url("../images/bx-controls.png") -20px 0;
     right: -50px;
-    &:hover{
+    &:hover {
       background: url("../images/bx-controls.png") -20px 0;
     }
   }
 }
 
-.carousel{
-  background: #FEDC00;
+.content {
   padding: (30em/16) 0;
-
-  .bx-wrapper{
-    max-width: 85% !important;
-  }
 }
 
