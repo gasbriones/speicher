@@ -61,7 +61,7 @@ body {
 header {
   background: #652D90;
   padding-top: (45em/16);
-  border-bottom: solid 5px #FEDC00;
+  border-bottom: solid 4px #FEDC00;
 
   .header-logo {
     float: left;
@@ -74,7 +74,7 @@ header {
     .name {
       font-size: (38em/16);
       display: block;
-      margin-top:10px ;
+      margin-top: 10px;
     }
 
     .last-name {
@@ -222,6 +222,33 @@ header {
 
 }
 
+.main {
+  padding-top: (40em/16);
+
+  .content {
+    padding: (30em/16) 0;
+
+    article {
+      background: #FEDC00;
+      padding: 1.20em;
+      font-size: (14em/16) !important;
+      width: (255em/14);
+      font-weight: 400;
+
+      h4 {
+        font-family: gotham-black;
+        margin-bottom: (16em/14);
+      }
+      p {
+        font-weight: 300;
+        letter-spacing: (-1em/14);
+        line-height: (18em/14);
+        word-spacing: (3em/14);
+      }
+    }
+  }
+}
+
 //Home class
 .home {
   .header-logo {
@@ -244,27 +271,9 @@ header {
   }
 
   .content {
-    background: url("../images/resena-bg.jpg") #000000 top center no-repeat;
     padding: 0;
     height: (664em/16);
-    article {
-      background: #FEDC00;
-      padding: 1em;
-      font-size: (14em/16) !important;
-      width: (263em/14);
-      font-weight: 400;
-
-      h4 {
-       font-family: gotham-black;
-        margin-bottom: (16em/14);
-      }
-      p{
-        font-weight: 300;
-        letter-spacing: (-1em/14);
-        line-height: (18em/14);
-        word-spacing: (3em/14);
-      }
-    }
+    background: url("../images/resena-bg.jpg") #000000 top center no-repeat;
   }
 }
 
@@ -275,12 +284,76 @@ header {
     color: #FF1A00;
   }
   .content {
-
+    padding: 0;
+    height: (664em/16);
+    background: #231F20;
   }
-}
 
-.main {
-  padding-top: (40em/16);
+  .gallery-menu {
+    padding: 1.2em;
+    .gallery-type {
+      li {
+        float: left;
+        line-height: 1em;
+        padding: (3rem/16) (10rem/16);
+
+        span {
+          font-size: (14rem/16);
+          line-height: 1em;
+          color: #FEDC00;
+          padding: (3rem/16) (10rem/16);
+
+          cursor: pointer;
+          &.active,
+          &:hover{
+            background: #FEDC00;
+            color: #000000;
+          }
+        }
+        ul {
+            margin-top: (5rem/16);
+          > li {
+            float: none;
+            color: #7B6B13;
+            text-align: left;
+            font-size: (14rem/16);
+            cursor: pointer;
+            &:hover {
+              background: #7B6B13;
+              color: #FEDC00;
+            }
+          }
+
+          &.years{
+            li{
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .thumb-container{
+    clear: both;
+    padding: 1em 1.2em;
+    width: (300rem/16);
+    .thumb{
+      li{
+        float: left;
+        border: solid 2px #FEDC00;
+        margin: 0  (10rem/16)  (10rem/16) 0;
+        background: #FEDC00;
+        cursor: pointer;
+
+        &:hover{
+          img{
+            opacity: .6;
+          }
+        }
+      }
+    }
+  }
 }
 
 .bx-wrapper {
@@ -306,7 +379,4 @@ header {
   }
 }
 
-.content {
-  padding: (30em/16) 0;
-}
 
