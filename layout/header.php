@@ -29,16 +29,16 @@
                     </div>
                 </a>
             </li>
-            <li class="item">
-                <a href="#">
+            <li class="item <?php echo $active = $_SESSION["active"]== 'prensa' ? 'active' : ''; ?>">
+                <a href="prensa.php">
                     <div class="item-bg">
                         <div class="bg pre"></div>
                         <span>Prensa</span>
                     </div>
                 </a>
             </li>
-            <li class="item">
-                <a href="#">
+            <li class="item <?php echo $active = $_SESSION["active"]== 'contacto' ? 'active' : ''; ?>">
+                <a href="contacto.php">
                     <div class="item-bg">
                         <div class="bg con"></div>
                         <span>Contacto</span>

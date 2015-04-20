@@ -1,4 +1,10 @@
 @font-face {
+  font-family: 'gotham-thin';
+  src: url("../fonts/gotham-thin.eot");
+  src: url("../fonts/gotham-thin.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-thin.woff") format("woff"), url("../fonts/gotham-thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'gotham';
   src: url("../fonts/gotham-bold.eot");
   src: url("../fonts/gotham-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-bold.woff") format("woff"), url("../fonts/gotham-bold.ttf") format("truetype");
@@ -14,7 +20,7 @@
   font-family: 'gotham-black';
   src: url("../fonts/gotham-black.eot");
   src: url("../fonts/gotham-black.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-black.woff") format("woff"), url("../fonts/gotham-black.ttf") format("truetype");
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal; }
 a {
   text-decoration: none; }
@@ -41,6 +47,22 @@ body {
     background: #652D90; }
   body.home {
     background: #231F20; }
+
+.bx-wrapper .bx-viewport {
+  border: none;
+  box-shadow: none;
+  left: 0; }
+.bx-wrapper .bx-controls-direction a {
+  height: 39px;
+  width: 20px; }
+.bx-wrapper .bx-prev {
+  background: url("../images/bx-controls.png") 0 0;
+  left: -50px; }
+.bx-wrapper .bx-next {
+  background: url("../images/bx-controls.png") -20px 0;
+  right: -50px; }
+  .bx-wrapper .bx-next:hover {
+    background: url("../images/bx-controls.png") -20px 0; }
 
 header {
   background: #652D90;
@@ -184,7 +206,7 @@ header {
   .resena .content {
     padding: 0;
     height: 41.5em;
-    background: url("../images/resena-bg.jpg") #000000 top center no-repeat; }
+    background: url("../images/resena-bg.jpg") black top center no-repeat; }
 
 .obras {
   background: #FF1A00; }
@@ -195,8 +217,18 @@ header {
     padding: 0;
     height: 41.5em;
     background: #231F20; }
+    .obras .content .col {
+      float: left; }
+      .obras .content .col.col-left {
+        width: 30%; }
+      .obras .content .col.col-right {
+        width: 70%; }
   .obras .gallery-menu {
-    padding: 1.2em; }
+    padding: 1.2em;
+    width: 18.21429em;
+    -webkit-box-sizing: padding-box;
+    -moz-box-sizing: padding-box;
+    box-sizing: padding-box; }
     .obras .gallery-menu .gallery-type li {
       float: left;
       line-height: 1em;
@@ -218,7 +250,7 @@ header {
           text-align: left;
           font-size: 0.875rem;
           cursor: pointer; }
-          .obras .gallery-menu .gallery-type li ul > li:hover {
+          .obras .gallery-menu .gallery-type li ul > li:hover, .obras .gallery-menu .gallery-type li ul > li.active {
             background: #7B6B13;
             color: #FEDC00; }
         .obras .gallery-menu .gallery-type li ul.years li {
@@ -233,23 +265,160 @@ header {
       margin: 0 0.625rem 0.625rem 0;
       background: #FEDC00;
       cursor: pointer; }
-      .obras .thumb-container .thumb li:hover img {
+      .obras .thumb-container .thumb li a:hover img, .obras .thumb-container .thumb li a.active img {
         opacity: .6; }
+  .obras .bx-viewport {
+    margin-top: 3em; }
+  .obras .bx-prev {
+    background: url("../images/bx-controls.png") 0 -43px;
+    left: -35px; }
+    .obras .bx-prev:hover {
+      background: url("../images/bx-controls.png") 0 -43px; }
+  .obras .bx-next {
+    background: url("../images/bx-controls.png") -20px -43px;
+    right: -35px; }
+    .obras .bx-next:hover {
+      background: url("../images/bx-controls.png") -20px -43px; }
+  .obras .bx-caption {
+    top: 0;
+    bottom: inherit; }
+    .obras .bx-caption span {
+      background: #FEDC00;
+      color: #000000 !important;
+      font-family: gotham;
+      font-weight: 300; }
 
-.bx-wrapper .bx-viewport {
-  border: none;
-  box-shadow: none;
-  left: 0; }
-.bx-wrapper .bx-controls-direction a {
-  height: 39px;
-  width: 20px; }
-.bx-wrapper .bx-prev {
-  background: url("../images/bx-controls.png") 0 0;
-  left: -50px; }
-.bx-wrapper .bx-next {
-  background: url("../images/bx-controls.png") -20px 0;
-  right: -50px; }
-  .bx-wrapper .bx-next:hover {
-    background: url("../images/bx-controls.png") -20px 0; }
+.prensa {
+  background: #004BDE; }
+  .prensa .header-logo {
+    background: #FEDC00;
+    color: #004BDE; }
+  .prensa .content {
+    padding: 0;
+    background: #231F20; }
+    .prensa .content a {
+      color: #000000;
+      margin-bottom: 0.625rem;
+      display: block; }
+    .prensa .content .col {
+      float: left; }
+      .prensa .content .col.col-left {
+        width: 26%;
+        max-width: 18.0625rem;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+      .prensa .content .col.col-right {
+        width: 74%; }
+    .prensa .content .news .top {
+      width: 100%; }
+      .prensa .content .news .top div {
+        float: left;
+        width: 49.5%; }
+        .prensa .content .news .top div img {
+          width: 100%; }
+      .prensa .content .news .top .pic-one {
+        margin-right: 1%;
+        margin-bottom: 4.1875rem;
+        position: relative; }
+        .prensa .content .news .top .pic-one:before {
+          content: "";
+          height: 3.75em;
+          background: #7BB748;
+          position: absolute;
+          left: 0;
+          bottom: -67px;
+          width: 100%; }
+      .prensa .content .news .top .pic-two {
+        margin-top: 88px;
+        position: relative; }
+        .prensa .content .news .top .pic-two:before {
+          content: "";
+          height: 5.0625em;
+          background: #FEDC00;
+          position: absolute;
+          left: 0;
+          top: -88px;
+          width: 100%; }
+    .prensa .content .news .bottom {
+      clear: both;
+      margin-top: 7px; }
+      .prensa .content .news .bottom .pic-tree {
+        width: 70%;
+        position: relative; }
+        .prensa .content .news .bottom .pic-tree img {
+          width: 100%; }
+        .prensa .content .news .bottom .pic-tree:before {
+          background: none repeat scroll 0 0 #652d90;
+          content: "";
+          height: 3.75em;
+          position: absolute;
+          right: -42.9%;
+          top: 0;
+          width: 41.7%; }
 
-/*# sourceMappingURL=style.css.map */
+.contacto {
+  background: #7BB748; }
+  .contacto .header-logo {
+    background: #FEDC00;
+    color: #7BB748; }
+  .contacto .content {
+    padding: 0;
+    height: 41.5em;
+    background: #231F20; }
+    .contacto .content article {
+      width: 100%;
+      background: url("../images/contact-bg.jpg") right top no-repeat #fedc00;
+      height: 380px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 0 1.2em; }
+    .contacto .content .contact-main {
+      width: 1.8125rem;
+      padding-right: 4.3125rem;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background: #FEDC00;
+      padding-top: 1.2em;
+      height: 100%;
+      display: table; }
+    .contacto .content .social-micro {
+      float: right;
+      margin-top: 1em;
+      width: 90px; }
+      .contacto .content .social-micro li {
+        float: left; }
+        .contacto .content .social-micro li a {
+          width: 22px;
+          height: 22px;
+          display: block;
+          margin-left: 12px;
+          background: url("../images/social-icon-micro.png") no-repeat; }
+          .contacto .content .social-micro li a.fb {
+            background-position: 0 0; }
+          .contacto .content .social-micro li a.tw {
+            background-position: -31px 0; }
+          .contacto .content .social-micro li a.ins {
+            background-position: -61px 0; }
+        .contacto .content .social-micro li:first-child a {
+          margin-left: 0; }
+    .contacto .content .contact-form {
+      margin-top: 4em; }
+      .contacto .content .contact-form label {
+        text-transform: uppercase; }
+      .contacto .content .contact-form input[type='text'] {
+        background: none;
+        border: none;
+        border-bottom: dashed 1px #000000;
+        display: block;
+        margin-bottom: 8px; }
+      .contacto .content .contact-form input[type='submit'] {
+        background: none repeat scroll 0 0 #231f20;
+        border: medium none;
+        color: #fedc00;
+        float: right;
+        font-size: 12px;
+        margin-top: 20px;
+        padding: 5px 8px 3px; }
