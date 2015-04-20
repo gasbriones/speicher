@@ -23,8 +23,9 @@
     <link rel="shortcut icon" href="http://cdn.tn.com.ar/favicon.ico" type="image/x-icon"/>
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
-    <link href="css/animations.css" rel="stylesheet" type="text/css">
+    <link href="css/slicknav.css" rel="stylesheet" type="text/css">
     <link href="css/splash.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/mediaqueries.css" rel="stylesheet" type="text/css">
     <title>Francisco Speicher</title>
 </head>

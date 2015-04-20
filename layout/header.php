@@ -1,8 +1,11 @@
-<header>
+<header id="header">
     <div class="wrapper">
         <div class="header-logo">
-            <span class="name">Francisco</span>
-            <span class="last-name">Speicher</span>
+            <span class="mobile-btn"><img src="images/menu.png" width="32" height="32"></span>
+            <a href="home.php" class="home-btn">
+                <span class="name">Francisco</span>
+                <span class="last-name">Speicher</span>
+            </a>
         </div>
         <ul class="menu">
             <li class="item <?php echo $active = $_SESSION["active"]== 'home' ? 'active' : ''; ?>">

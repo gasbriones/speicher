@@ -25,6 +25,9 @@
 a {
   text-decoration: none; }
 
+.mobile-btn {
+  display: none; }
+
 .wrapper-splash {
   width: 100%;
   max-width: 1280px;
@@ -173,7 +176,7 @@ header {
         color: #A381BC; }
 
 .main {
-  padding-top: 2.5em; }
+  margin-top: 2.5em; }
   .main .content {
     padding: 1.875em 0; }
     .main .content article {
@@ -193,6 +196,8 @@ header {
 
 .home .header-logo {
   background: #FEDC00; }
+  .home .header-logo a {
+    color: #231F20; }
 .home .content {
   background: #FEDC00; }
   .home .content .bx-wrapper {
@@ -201,18 +206,20 @@ header {
 .resena {
   background: #58D4C6; }
   .resena .header-logo {
-    background: #FEDC00;
-    color: #58D4C6; }
+    background: #FEDC00; }
+    .resena .header-logo a {
+      color: #58D4C6; }
   .resena .content {
     padding: 0;
     height: 41.5em;
-    background: url("../images/resena-bg.jpg") black top center no-repeat; }
+    background: url("../images/resena-bg.jpg") #000000 top center no-repeat; }
 
 .obras {
   background: #FF1A00; }
   .obras .header-logo {
-    background: #FEDC00;
-    color: #FF1A00; }
+    background: #FEDC00; }
+    .obras .header-logo a {
+      color: #FF1A00; }
   .obras .content {
     padding: 0;
     height: 41.5em;
@@ -291,8 +298,9 @@ header {
 .prensa {
   background: #004BDE; }
   .prensa .header-logo {
-    background: #FEDC00;
-    color: #004BDE; }
+    background: #FEDC00; }
+    .prensa .header-logo a {
+      color: #004BDE; }
   .prensa .content {
     padding: 0;
     background: #231F20; }
@@ -300,6 +308,8 @@ header {
       color: #000000;
       margin-bottom: 0.625rem;
       display: block; }
+      .prensa .content a:hover {
+        text-decoration: underline; }
     .prensa .content .col {
       float: left; }
       .prensa .content .col.col-left {
@@ -307,7 +317,8 @@ header {
         max-width: 18.0625rem;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        word-wrap: break-word; }
       .prensa .content .col.col-right {
         width: 74%; }
     .prensa .content .news .top {
@@ -360,22 +371,23 @@ header {
 .contacto {
   background: #7BB748; }
   .contacto .header-logo {
-    background: #FEDC00;
-    color: #7BB748; }
+    background: #FEDC00; }
+    .contacto .header-logo a {
+      color: #7BB748; }
   .contacto .content {
     padding: 0;
     height: 41.5em;
     background: #231F20; }
     .contacto .content article {
       width: 100%;
-      background: url("../images/contact-bg.jpg") right top no-repeat #fedc00;
+      background: url("../images/contact-bg.jpg") right top no-repeat #FEDC00;
       height: 380px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       padding: 0 1.2em; }
     .contacto .content .contact-main {
-      width: 1.8125rem;
+      width: 18.3125rem;
       padding-right: 4.3125rem;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -422,3 +434,5 @@ header {
         font-size: 12px;
         margin-top: 20px;
         padding: 5px 8px 3px; }
+
+/*# sourceMappingURL=style.css.map */

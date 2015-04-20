@@ -5,7 +5,9 @@
 <?php include 'layout/head.php' ?>
 <body class="home">
 <?php include 'layout/header.php' ?>
+<?php include 'layout/mobile-menu.php' ?>
 <div class="main wrapper">
+
     <section class="content">
         <ul class="slider">
             <li><img src="images/slider-1.jpg" /></li>

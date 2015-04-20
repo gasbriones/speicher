@@ -41,6 +41,9 @@
 a {
   text-decoration: none;
 }
+.mobile-btn{
+  display: none;
+}
 
 .wrapper-splash {
   width: 100%;
@@ -262,7 +265,7 @@ header {
 }
 
 .main {
-  padding-top: (40em/16);
+  margin-top: (40em/16);
 
   .content {
     padding: (30em/16) 0;
@@ -292,6 +295,9 @@ header {
 .home {
   .header-logo {
     background: #FEDC00;
+    a{
+      color: #231F20;
+    }
   }
   .content {
     background: #FEDC00;
@@ -306,7 +312,9 @@ header {
   background: #58D4C6;
   .header-logo {
     background: #FEDC00;
-    color: #58D4C6;
+    a{
+      color: #58D4C6;
+    }
   }
 
   .content {
@@ -320,7 +328,9 @@ header {
   background: #FF1A00;
   .header-logo {
     background: #FEDC00;
-    color: #FF1A00;
+    a{
+      color: #FF1A00;
+    }
   }
   .content {
     padding: 0;
@@ -451,7 +461,9 @@ header {
   background: #004BDE;
   .header-logo {
     background: #FEDC00;
-    color: #004BDE;
+    a{
+      color: #004BDE;
+    }
   }
   .content {
     padding: 0;
@@ -461,6 +473,9 @@ header {
       color: #000000;
       margin-bottom: (10rem/16);
       display: block;
+      &:hover{
+        text-decoration: underline;
+      }
     }
 
 
@@ -470,7 +485,8 @@ header {
       &.col-left{
         width: 26%;
         max-width: (289rem/16);
-        @include box_sizing(border-box)
+        @include box_sizing(border-box);
+        word-wrap: break-word;
       }
       &.col-right{
         width: 74%;
@@ -547,7 +563,9 @@ header {
   background: #7BB748;
   .header-logo {
     background: #FEDC00;
-    color: #7BB748;
+    a{
+      color: #7BB748;
+    }
   }
   .content {
     padding: 0;

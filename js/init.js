@@ -12,7 +12,6 @@ $(document).ready(function () {
         }
     });
 
-
     switch ($('body').attr('class')){
         case 'home':
             $('.slider').bxSlider({
