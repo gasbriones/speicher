@@ -63,11 +63,13 @@
       min-width: inherit;
     }
     .thumb-container{
-      width: auto;
+      width: 320px;
+      @include box_sizing(border-box);
     }
 
     .col-right{
-      width: 100% !important;
+      width: 320px !important;
+      @include box_sizing(border-box);
     }
   }
 
