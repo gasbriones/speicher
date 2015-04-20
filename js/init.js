@@ -19,6 +19,13 @@ $(document).ready(function () {
                 pager: false
             });
         break;
+        case 'obras':
+            $('.slider').bxSlider({
+                pagerCustom: $('.thumb'),
+                slideWidth:583,
+                captions: true
+            });
+        break;
     }
 
 
