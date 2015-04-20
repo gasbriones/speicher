@@ -5,6 +5,7 @@ $_SESSION['active'] = "resena";
 <?php include 'layout/head.php' ?>
 <body class="resena">
 <?php include 'layout/header.php' ?>
+<?php include 'layout/mobile-menu.php' ?>
 <div class="main wrapper">
     <section class="content">
         <article>

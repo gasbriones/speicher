@@ -5,6 +5,7 @@ $_SESSION['active'] = "obras";
 <?php include 'layout/head.php' ?>
 <body class="obras">
 <?php include 'layout/header.php' ?>
+<?php include 'layout/mobile-menu.php' ?>
 <div class="main wrapper">
     <section class="content">
         <div class="col col-left clearfix">

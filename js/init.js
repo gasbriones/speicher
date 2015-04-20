@@ -12,6 +12,11 @@ $(document).ready(function () {
         }
     });
 
+    $('.mobile-btn').on('touchstart click',function(){
+
+        $('.menu-mobile').slideToggle();
+    });
+
     switch ($('body').attr('class')){
         case 'home':
             $('.slider').bxSlider({

@@ -227,7 +227,8 @@ header {
     .obras .content .col {
       float: left; }
       .obras .content .col.col-left {
-        width: 30%; }
+        width: 30%;
+        min-width: 18.2143em; }
       .obras .content .col.col-right {
         width: 70%; }
   .obras .gallery-menu {
@@ -434,5 +435,19 @@ header {
         font-size: 12px;
         margin-top: 20px;
         padding: 5px 8px 3px; }
+
+.menu-mobile {
+  background: #fedc00;
+  display: none; }
+  .menu-mobile li {
+    padding: .5em; }
+    .menu-mobile li a {
+      color: #000000;
+      display: block;
+      width: 100%; }
+    .menu-mobile li:hover, .menu-mobile li.active {
+      background: none repeat scroll 0 0 #7b6b13; }
+      .menu-mobile li:hover a, .menu-mobile li.active a {
+        color: #fedc00 !important; }
 
 /*# sourceMappingURL=style.css.map */

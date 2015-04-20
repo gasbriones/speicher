@@ -337,11 +337,11 @@ header {
     height: (664em/16);
     background: #231F20;
 
-
     .col{
       float: left;
       &.col-left{
         width: 30%;
+        min-width: 18.2143em;
       }
       &.col-right{
         width: 70%;
@@ -651,5 +651,25 @@ header {
   }
 }
 
+.menu-mobile{
+  background: #fedc00;
+  display: none;
+  li{
+    padding: .5em;
+    a{
+      color: #000000;
+      display: block;
+      width: 100%;
+    }
+    &:hover,
+    &.active{
+      background: none repeat scroll 0 0 #7b6b13;
+      a{
+        color: #fedc00 !important;
+      }
+    }
+
+  }
+}
 
 

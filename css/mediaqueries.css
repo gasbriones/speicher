@@ -10,15 +10,77 @@
     float: left; }
 
   .mobile-btn {
-    margin: 25px 10px 0 10px; } }
-@media screen and (max-width: 433px) {
-  .lang, .social-small {
-    display: none; }
+    margin: 25px 10px 0 10px; }
 
+  .social-small {
+    background: #231F20;
+    position: relative !important;
+    width: 100%;
+    display: table;
+    padding: 10px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+  .lang {
+    right: 12px !important;
+    top: 107px !important; }
+    .lang li {
+      float: left;
+      margin-left: 10px; } }
+@media screen and (max-width: 433px) {
   .header-logo {
     width: 100% !important; }
 
   .mobile-btn {
     margin: 25px 10px 0 10px; } }
+@media screen and (max-width: 320px) {
+  .resena article {
+    width: 100% !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+  .obras article, .obras .col-left {
+    width: 100% !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: inherit; }
+  .obras .thumb-container {
+    width: auto; }
+  .obras .col-right {
+    width: 100% !important; }
+
+  .bx-controls {
+    display: none; }
+
+  .contacto .col-right {
+    width: 100% !important; }
+  .contacto article {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 !important; }
+    .contacto article .contact-main {
+      padding: 1.5em !important;
+      width: 100% !important; } }
+@media (min-width: 768px) and (max-width: 975px) {
+  .obras .col-right {
+    width: 50% !important;
+    margin-left: 6%; }
+
+  .contacto article {
+    padding-left: 0 !important; }
+    .contacto article .contact-main {
+      padding: 1.5em !important; } }
+@media screen and (max-width: 800px) {
+  .prensa .col {
+    float: none !important;
+    width: 100% !important;
+    max-width: none !important; }
+  .prensa .col-right {
+    margin-top: 6px; } }
 
 /*# sourceMappingURL=mediaqueries.css.map */
