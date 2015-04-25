@@ -1,0 +1,134 @@
+@import 'mixin';
+
+@media screen and (max-width: 980px) {
+  .menu {
+    display: none;
+  }
+  .header-logo {
+    width: (304rem/16) !important;
+  }
+  .mobile-btn, .home-btn {
+    display: block;
+    float: left;
+  }
+  .mobile-btn {
+    margin: 25px 10px 0 10px;
+  }
+  .social-small{
+    background: #231F20;
+    position: relative !important;
+    width: 100%;
+    display: table;
+    padding: 10px 15px;
+    @include box_sizing(border-box);
+  }
+
+  .lang{
+    right: 12px !important;
+    top: 107px !important;
+
+    li{
+      float: left;
+      margin-left: 10px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 433px) {
+
+  .header-logo {
+    width: 100% !important;
+  }
+  .mobile-btn {
+    margin: 25px 10px 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .resena{
+
+    article{
+      width: 100% !important;
+      @include box_sizing(border-box)
+    }
+  }
+
+  .obras{
+
+    article,.col-left{
+      width: 100% !important;
+      @include box_sizing(border-box);
+      min-width: inherit;
+    }
+    .thumb-container{
+      width: 320px;
+      @include box_sizing(border-box);
+    }
+
+    .col-right{
+      width: 320px !important;
+      @include box_sizing(border-box);
+    }
+  }
+
+  .bx-controls{
+    display: none;
+  }
+
+  .contacto{
+    .col-right{
+      width: 100% !important;
+    }
+    article{
+      width: 100%;
+      @include box_sizing(border-box);
+      padding:0 !important;
+      .contact-main{
+        padding: 1.5em !important;
+        width: 100% !important;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 975px) {
+
+  .obras{
+    .col-right{
+      width: 50% !important;
+      margin-left: 6%;
+    }
+
+  }
+
+  .contacto{
+    article{
+      padding-left:0 !important;
+      .contact-main{
+        padding: 1.5em !important;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .prensa{
+    .col{
+      float: none !important;
+      width: 100% !important;
+      max-width: none !important;
+    }
+
+    .col-right{
+      margin-top: 6px;
+    }
+
+  }
+
+}
