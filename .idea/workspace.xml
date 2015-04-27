@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bae5a6-d2ed-407b-833c-b06aa231a994" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/contacto.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/contacto.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/obras.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/obras.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/prensa.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/prensa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/splash.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/splash.php" />
     </list>
     <ignored path="speicher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="en.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="34" selection-start="337" selection-end="337" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="552">
+            <state line="16" column="34" selection-start="337" selection-end="337" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -85,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="splash.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="splash.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/splash.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="15" selection-start="52" selection-end="52" vertical-scroll-proportion="8.166667" vertical-offset="271" max-vertical-offset="810">
+            <state line="26" column="35" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.55658627" vertical-offset="90" max-vertical-offset="810">
               <folding>
                 <element signature="e#6#33#0" expanded="true" />
               </folding>
@@ -137,7 +131,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/layout/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/splash.php" />
         <option value="$PROJECT_DIR$/wp-includes/general-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/header.php" />
@@ -154,6 +147,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/contacto.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/splash.php" />
       </list>
     </option>
   </component>
@@ -551,22 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/splash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="52" selection-end="52" vertical-scroll-proportion="8.166667" vertical-offset="271" max-vertical-offset="810">
-          <folding>
-            <element signature="e#6#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="61" selection-start="1778" selection-end="1778" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="359" column="15" selection-start="6666" selection-end="6666" vertical-scroll-proportion="-2.4509804" vertical-offset="5260" max-vertical-offset="10815">
@@ -618,8 +596,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="337" selection-end="337" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="552">
+        <state line="16" column="34" selection-start="337" selection-end="337" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="61" selection-start="1778" selection-end="1778" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/splash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="35" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.55658627" vertical-offset="90" max-vertical-offset="810">
+          <folding>
+            <element signature="e#6#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

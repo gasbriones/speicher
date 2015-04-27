@@ -4,7 +4,7 @@ Template Name: splash
 */
 ?>
 <!DOCTYPE html>
-<?php include 'layout/head.php' ?>
+<?php include 'header.php' ?>
 <body class="splash">
 <div class="main wrapper-splash">
     <section class="pictures clearfix">
@@ -19,12 +19,12 @@ Template Name: splash
         </ul>
     </section>
     <section class="logo">
-        <a href="?page_id=2">
+        <a href="?page_id=2&lang=es">
             <img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" />
         </a>
     </section>
     <section class="letters clearfix">
-        <a href="?page_id=9">
+        <a href="?page_id=2&lang=es">
             <span class="name">Francisco</span>
             <span class="last-name">Speicher</span>
         </a>
