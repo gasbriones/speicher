@@ -25,11 +25,11 @@ $query1 = new WP_Query($args1);
                 <?php if ( have_posts() ) : ?>
                     <?php while ( have_posts() ) : the_post();  ?>
                         <?php
-                        if($_SESSION["lang"] == "es"){
-                            the_content();
-                        }else{
-                            the_field('eng_text_pages');
-                        }
+                            if($_SESSION["lang"] == "es"){
+                                the_content();
+                            }else{
+                                the_field('eng_text_pages');
+                            }
                         ?>
                     <?php endwhile; ?>
                 <?php endif;?>
@@ -72,7 +72,6 @@ $query1 = new WP_Query($args1);
                     $i = 0;
                     if ($query1->have_posts()) :
                         while ($query1->have_posts()) : $query1->the_post();
-
                         ?>
                             <li><a data-slide-index="<?php echo $i;?>"><img src="<?php echo the_field('image') ?>" title="" width="74" height="74" /></a></li>
                         <?php $i++;endwhile; endif;
@@ -82,7 +81,6 @@ $query1 = new WP_Query($args1);
         </div>
         <div class="col col-right">
             <ul class="slider">
-
                 <?php
                 if ($query1->have_posts()) :
                     while ($query1->have_posts()) : $query1->the_post(); ?>
