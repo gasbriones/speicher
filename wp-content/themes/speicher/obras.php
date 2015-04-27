@@ -24,14 +24,20 @@ $query1 = new WP_Query($args1);
             <article class="clearfix">
                 <?php if ( have_posts() ) : ?>
                     <?php while ( have_posts() ) : the_post();  ?>
-                        <?php the_content(); ?>
+                        <?php
+                        if($_SESSION["lang"] == "es"){
+                            the_content();
+                        }else{
+                            the_field('eng_text_pages');
+                        }
+                        ?>
                     <?php endwhile; ?>
                 <?php endif;?>
             </article>
 
             <div class="gallery-menu clearfix">
                 <ul class="gallery-type">
-                    <li><span class="<?php echo $active = $_GET["cat"]== '3' ? 'active' : ''; ?>">+ PINTURAS</span>
+                    <li><span class="<?php echo $active = $_GET["cat"]== '3' ? 'active' : ''; ?>">+ <?php echo OBRAS_PINTURAS;?></span>
                         <ul>
                             <?php
                             $tags = get_tags();
@@ -45,7 +51,7 @@ $query1 = new WP_Query($args1);
 
                         </ul>
                     </li>
-                    <li><span class="<?php echo $active = $_GET["cat"]== '7' ? 'active' : ''; ?>">+ DIBUJOS</span>
+                    <li><span class="<?php echo $active = $_GET["cat"]== '7' ? 'active' : ''; ?>">+ <?php echo OBRAS_DIBUJOS;?></span>
                         <ul class="years">
                             <?php
                                 $tags = get_tags();
@@ -80,7 +86,7 @@ $query1 = new WP_Query($args1);
                 <?php
                 if ($query1->have_posts()) :
                     while ($query1->have_posts()) : $query1->the_post(); ?>
-                        <li><img src="<?php echo the_field('image') ?>" title="<?php global $more; $more = 1; the_content(); ?>" /></li>
+                        <li><img src="<?php echo the_field('image') ?>" title="<?php global $more; $more = 1; $_SESSION["lang"] == "es" ? the_content() : the_field('eng_text_pages'); ?>" /></li>
                     <?php endwhile;
                 else:
                     echo '<li class="emty">No se encontraron obras</li>';

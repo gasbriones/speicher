@@ -14,7 +14,7 @@ Template Name: contacto
     <section class="content clearfix">
         <article>
             <div class="contact-main">
-                <h4>CONTACTO</h4>
+                <h4><?php echo CONTACTO_TITULO;?></h4>
                 <div>
                     E-mail:<br/> <a href="mailto:franciscospeicher@hotmail.com">franciscospeicher@hotmail.com</a>
                 </div>
@@ -31,14 +31,14 @@ Template Name: contacto
                 </ul>
 
                 <form class="contact-form" id="contact-form">
-                    <h4>FORMULARIO</h4>
-                    <label>Nombre:</label>
+                    <h4><?php echo CONTACTO_FORMULARIO;?></h4>
+                    <label><?php echo CONTACTO_NOMBRE;?>:</label>
                     <input type="text" name="nombre" />
-                    <label>Apellido:</label>
+                    <label><?php echo CONTACTO_APELLIDO;?>:</label>
                     <input type="text" name="apellido" />
                     <label>E-mail:</label>
                     <input type="text"  name="email"/>
-                    <input type="submit" value="ENVIAR" />
+                    <input type="submit" value="<?php echo CONTACTO_ENVIAR;?>" />
                 </form>
             </div>
 

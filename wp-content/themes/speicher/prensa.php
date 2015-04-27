@@ -15,7 +15,13 @@ Template Name: prensa
         <article class="col col-left">
             <?php if ( have_posts() ) : ?>
                 <?php while ( have_posts() ) : the_post();  ?>
-                    <?php the_content(); ?>
+                    <?php
+                    if($_SESSION["lang"] == "es"){
+                        the_content();
+                    }else{
+                        the_field('eng_text_pages');
+                    }
+                    ?>
 
         </article>
         <div class="news col col-right">

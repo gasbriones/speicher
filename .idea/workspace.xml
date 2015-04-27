@@ -2,152 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bae5a6-d2ed-407b-833c-b06aa231a994" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/header-part.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/send-mail.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/strict.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/layout/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/author-bio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-link.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/genericons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/back-compat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/color-scheme-control.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/customize-preview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/languages/twentyfifteen.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/archive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/author.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/category.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-aside.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-audio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-featured-post.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-gallery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-link.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-quote.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content-video.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/css/editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/featured-content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/Genericons-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/font/genericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/font/genericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/font/genericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/font/genericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/genericons/genericons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/images/pattern-dark.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/images/pattern-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/inc/back-compat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/inc/custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/inc/customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/inc/featured-content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/inc/template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/inc/widgets.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/js/customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/js/featured-content-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/js/keyboard-image-navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/js/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/languages/twentyfourteen.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/page-templates/contributors.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/page-templates/full-width.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar-footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/tag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/taxonomy-post_format.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/layout/head.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/header.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/layout/mobile-menu.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/mobile-menu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/contacto.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/contacto.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/js/init.js" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/css/mediaqueries.css" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/css/mediaqueries.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/obras.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/obras.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/prensa.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/prensa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/lang/prepend.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/lang/prepend.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/resena.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/resena.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/splash.php" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/splash.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="speicher.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -170,19 +31,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/index.php">
+      <file leaf-file-name="obras.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/obras.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="34" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="450">
+            <state line="32" column="26" selection-start="656" selection-end="901" vertical-scroll-proportion="-11.208333" vertical-offset="211" max-vertical-offset="1605">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="obras.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/obras.php">
+      <file leaf-file-name="es.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="30" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1515">
+            <state line="15" column="40" selection-start="367" selection-end="367" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="34" selection-start="337" selection-end="337" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="552">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="359" column="15" selection-start="6666" selection-end="6666" vertical-scroll-proportion="-2.4509804" vertical-offset="5260" max-vertical-offset="10815">
               <folding />
             </state>
           </provider>
@@ -191,7 +70,7 @@
       <file leaf-file-name="prensa.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/prensa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="810">
+            <state line="24" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -200,25 +79,7 @@
       <file leaf-file-name="resena.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/resena.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="570">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send-mail.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/send-mail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="4" selection-end="808" vertical-scroll-proportion="-0.625" vertical-offset="15" max-vertical-offset="645">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prepend.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/prepend.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="139" selection-end="164" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="225">
+            <state line="23" column="22" selection-start="428" selection-end="669" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
@@ -247,16 +108,16 @@
       <file leaf-file-name="contacto.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/contacto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="840">
+            <state line="35" column="55" selection-start="1390" selection-end="1390" vertical-scroll-proportion="-16.25" vertical-offset="135" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header-part.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header-part.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header-part.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="88" selection-start="3007" selection-end="3007" vertical-scroll-proportion="1.3339517" vertical-offset="241" max-vertical-offset="1095">
+            <state line="30" column="30" selection-start="1431" selection-end="1455" vertical-scroll-proportion="-8.708333" vertical-offset="241" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
@@ -280,19 +141,19 @@
         <option value="$PROJECT_DIR$/wp-includes/general-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/js/init.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/prepend.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/contacto.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/mobile-menu.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/obras.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/prensa.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/resena.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/header-part.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/obras.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/prensa.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/contacto.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php" />
       </list>
     </option>
   </component>
@@ -423,6 +284,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speicher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speicher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="speicher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -610,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="614" column="23" selection-start="11657" selection-end="11657" vertical-scroll-proportion="-4.8039217" vertical-offset="8965" max-vertical-offset="10800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/blogs-leono/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="1034" selection-end="1111" vertical-scroll-proportion="38.125" vertical-offset="1080" max-vertical-offset="5145">
@@ -643,20 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/mobile-menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
@@ -678,27 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/obras.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/prensa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/resena.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/send-mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="4" selection-end="808" vertical-scroll-proportion="-0.625" vertical-offset="15" max-vertical-offset="645">
@@ -715,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/contacto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="61" selection-start="1778" selection-end="1778" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="645">
@@ -729,9 +567,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="359" column="15" selection-start="6666" selection-end="6666" vertical-scroll-proportion="-2.4509804" vertical-offset="5260" max-vertical-offset="10815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/resena.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="428" selection-end="669" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/obras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="26" selection-start="656" selection-end="901" vertical-scroll-proportion="-11.208333" vertical-offset="211" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/prensa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header-part.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="88" selection-start="3007" selection-end="3007" vertical-scroll-proportion="1.3339517" vertical-offset="241" max-vertical-offset="1095">
+        <state line="30" column="30" selection-start="1431" selection-end="1455" vertical-scroll-proportion="-8.708333" vertical-offset="241" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/contacto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="55" selection-start="1390" selection-end="1390" vertical-scroll-proportion="-16.25" vertical-offset="135" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="367" selection-end="367" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="34" selection-start="337" selection-end="337" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="552">
           <folding />
         </state>
       </provider>

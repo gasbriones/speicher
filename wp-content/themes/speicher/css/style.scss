@@ -357,7 +357,7 @@ header {
 
   .gallery-menu {
     padding: 1.2em;
-    width: (255em/14);
+    width: 100%;
     @include box_sizing(padding-box);
 
     .gallery-type {
@@ -372,6 +372,7 @@ header {
           line-height: 1em;
           color: #FEDC00;
           padding: (3rem/16) (10rem/16);
+          text-transform: uppercase;
 
           cursor: pointer;
           &.active,

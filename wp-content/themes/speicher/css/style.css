@@ -239,7 +239,7 @@ header {
         width: 70%; }
   .obras .gallery-menu {
     padding: 1.2em;
-    width: 18.21429em;
+    width: 100%;
     -webkit-box-sizing: padding-box;
     -moz-box-sizing: padding-box;
     box-sizing: padding-box; }
@@ -252,6 +252,7 @@ header {
         line-height: 1em;
         color: #FEDC00;
         padding: 0.1875rem 0.625rem;
+        text-transform: uppercase;
         cursor: pointer; }
         .obras .gallery-menu .gallery-type > li span.active, .obras .gallery-menu .gallery-type > li span:hover {
           background: #FEDC00;
