@@ -1,25 +1,25 @@
 <?php
-
+include("lang/prepend.php");
 $_SESSION['active'] = "home";
-
+/*
+Template Name: home
+*/
 ?>
-<!DOCTYPE html>
-<?php include 'layout/head.php' ?>
-<body class="home">
-<?php include 'layout/header.php' ?>
-<?php include 'layout/mobile-menu.php' ?>
-<div class="main wrapper">
 
+<?php get_header(); ?>
+<body class="home">
+<?php get_template_part('header-part') ?>
+<?php get_template_part('mobile-menu') ?>
+<div class="main wrapper">
     <section class="content">
-        <ul class="slider">
-            <li><img src="images/slider-1.jpg" /></li>
-            <li><img src="images/slider-2.jpg" /></li>
-            <li><img src="images/slider-3.jpg" /></li>
-        </ul>
+        <?php if ( have_posts() ) : ?>
+            <?php while ( have_posts() ) : the_post();  ?>
+                <?php the_content(); ?>
+            <?php endwhile; ?>
+        <?php endif;?>
     </section>
 </div>
-<script src="js/libs/jquery-2.1.3.min.js"></script>
-<script src="js/libs/jquery.bxslider.min.js"></script>
-<script src="js/init.js"></script>
+<?php wp_footer(); ?>
+<script src="<?php echo get_template_directory_uri(); ?>/js/init.js"></script>
 </body>
-</hmtl>
+</html>

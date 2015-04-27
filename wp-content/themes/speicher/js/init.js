@@ -1,35 +1,43 @@
-$(document).ready(function () {
+jQuery(document).ready(function () {
 
-    $('.menu .item').hover(function () {
-        $(this).find('.item-bg').stop().animate({height: '30px'}, 250).find('.bg').stop().animate({opacity: 0}, 250, function () {
-            $(this).parent().find('span').show();
+    jQuery('.menu .item').hover(function () {
+        jQuery(this).find('.item-bg').stop().animate({height: '30px'}, 250).find('.bg').stop().animate({opacity: 0}, 250, function () {
+            jQuery(this).parent().find('span').show();
         });
     }, function () {
-        if ($(this).attr('class') != 'item active') {
-            $(this).find('.item-bg').stop().animate({height: '100%'}, 250).find('.bg').stop().animate({opacity: 1}, 250, function () {
-                $(this).parent().find('span').hide();
+        if (jQuery(this).attr('class') != 'item active') {
+            jQuery(this).find('.item-bg').stop().animate({height: '100%'}, 250).find('.bg').stop().animate({opacity: 1}, 250, function () {
+                jQuery(this).parent().find('span').hide();
             });
         }
     });
 
-    $('.mobile-btn').on('touchstart click',function(){
-
-        $('.menu-mobile').slideToggle();
+    jQuery('.mobile-btn').on('click',function(){
+        jQuery('.menu-mobile').slideToggle();
     });
 
-    switch ($('body').attr('class')){
-        case 'home':
-            $('.slider').bxSlider({
-                pager: false
-            });
-        break;
+   switch (jQuery('body').attr('class')){
         case 'obras':
-            $('.slider').bxSlider({
-                pagerCustom: $('.thumb'),
+            jQuery('.slider').bxSlider({
+                pagerCustom: jQuery('.thumb'),
                 slideWidth:583,
                 captions: true
             });
         break;
+       case 'contacto':
+           jQuery('#contact-form').submit(function(e){
+               e.preventDefault();
+               jQuery.ajax({
+                   url:'siteWideMessage',
+                   data:jQuery(this).serialize(),
+                   success:function(){
+                       alert('Su mensaje fue enviado');
+                   }
+               });
+           });
+
+
+           break;
     }
 
 

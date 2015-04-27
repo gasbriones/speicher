@@ -28,6 +28,12 @@ a {
 .mobile-btn {
   display: none; }
 
+.emty {
+  background: #231F20;
+  color: red;
+  font-size: 1.125rem;
+  text-align: center; }
+
 .wrapper-splash {
   width: 100%;
   max-width: 1280px;
@@ -52,20 +58,20 @@ body {
     background: #231F20; }
 
 .bx-wrapper .bx-viewport {
-  border: none;
-  box-shadow: none;
-  left: 0; }
+  border: none !important;
+  box-shadow: none !important;
+  left: 0 !important; }
 .bx-wrapper .bx-controls-direction a {
-  height: 39px;
-  width: 20px; }
+  height: 39px !important;
+  width: 20px !important; }
 .bx-wrapper .bx-prev {
-  background: url("../images/bx-controls.png") 0 0;
-  left: -50px; }
+  background: url("../images/bx-controls.png") 0 0 !important;
+  left: -50px !important; }
 .bx-wrapper .bx-next {
-  background: url("../images/bx-controls.png") -20px 0;
-  right: -50px; }
+  background: url("../images/bx-controls.png") -20px 0 !important;
+  right: -50px !important; }
   .bx-wrapper .bx-next:hover {
-    background: url("../images/bx-controls.png") -20px 0; }
+    background: url("../images/bx-controls.png") -20px 0 !important; }
 
 header {
   background: #652D90;
@@ -212,7 +218,7 @@ header {
   .resena .content {
     padding: 0;
     height: 41.5em;
-    background: url("../images/resena-bg.jpg") #000000 top center no-repeat; }
+    background: url("../images/resena-bg.jpg") black top center no-repeat; }
 
 .obras {
   background: #FF1A00; }
@@ -237,31 +243,33 @@ header {
     -webkit-box-sizing: padding-box;
     -moz-box-sizing: padding-box;
     box-sizing: padding-box; }
-    .obras .gallery-menu .gallery-type li {
+    .obras .gallery-menu .gallery-type > li {
       float: left;
       line-height: 1em;
       padding: 0.1875rem 0.625rem; }
-      .obras .gallery-menu .gallery-type li span {
+      .obras .gallery-menu .gallery-type > li span {
         font-size: 0.875rem;
         line-height: 1em;
         color: #FEDC00;
         padding: 0.1875rem 0.625rem;
         cursor: pointer; }
-        .obras .gallery-menu .gallery-type li span.active, .obras .gallery-menu .gallery-type li span:hover {
+        .obras .gallery-menu .gallery-type > li span.active, .obras .gallery-menu .gallery-type > li span:hover {
           background: #FEDC00;
           color: #000000; }
-      .obras .gallery-menu .gallery-type li ul {
+      .obras .gallery-menu .gallery-type > li ul {
         margin-top: 0.3125rem; }
-        .obras .gallery-menu .gallery-type li ul > li {
-          float: none;
-          color: #7B6B13;
-          text-align: left;
-          font-size: 0.875rem;
-          cursor: pointer; }
-          .obras .gallery-menu .gallery-type li ul > li:hover, .obras .gallery-menu .gallery-type li ul > li.active {
+        .obras .gallery-menu .gallery-type > li ul > li {
+          float: none; }
+          .obras .gallery-menu .gallery-type > li ul > li a {
+            color: #7B6B13;
+            display: block;
+            text-align: left;
+            font-size: 0.875rem;
+            padding: 0.1875rem 0.625rem; }
+          .obras .gallery-menu .gallery-type > li ul > li:hover a, .obras .gallery-menu .gallery-type > li ul > li.active a {
             background: #7B6B13;
             color: #FEDC00; }
-        .obras .gallery-menu .gallery-type li ul.years li {
+        .obras .gallery-menu .gallery-type > li ul.years li {
           text-align: center; }
   .obras .thumb-container {
     clear: both;
@@ -276,25 +284,25 @@ header {
       .obras .thumb-container .thumb li a:hover img, .obras .thumb-container .thumb li a.active img {
         opacity: .6; }
   .obras .bx-viewport {
-    margin-top: 3em; }
+    margin-top: 3em !important; }
   .obras .bx-prev {
-    background: url("../images/bx-controls.png") 0 -43px;
+    background: url("../images/bx-controls.png") 0 -43px !important;
     left: -35px; }
     .obras .bx-prev:hover {
-      background: url("../images/bx-controls.png") 0 -43px; }
+      background: url("../images/bx-controls.png") 0 -43px !important; }
   .obras .bx-next {
-    background: url("../images/bx-controls.png") -20px -43px;
+    background: url("../images/bx-controls.png") -20px -43px !important;
     right: -35px; }
     .obras .bx-next:hover {
-      background: url("../images/bx-controls.png") -20px -43px; }
+      background: url("../images/bx-controls.png") -20px -43px !important; }
   .obras .bx-caption {
-    top: 0;
-    bottom: inherit; }
+    top: 0 !important;
+    bottom: inherit !important; }
     .obras .bx-caption span {
-      background: #FEDC00;
+      background: #FEDC00 !important;
       color: #000000 !important;
-      font-family: gotham;
-      font-weight: 300; }
+      font-family: gotham !important;
+      font-weight: 300 !important; }
 
 .prensa {
   background: #004BDE; }
@@ -307,7 +315,6 @@ header {
     background: #231F20; }
     .prensa .content a {
       color: #000000;
-      margin-bottom: 0.625rem;
       display: block; }
       .prensa .content a:hover {
         text-decoration: underline; }
@@ -341,6 +348,13 @@ header {
           left: 0;
           bottom: -67px;
           width: 100%; }
+        .prensa .content .news .top .pic-one figure {
+          display: table;
+          width: 100%;
+          max-width: 385px;
+          height: 100%;
+          max-height: 264px;
+          overflow: hidden; }
       .prensa .content .news .top .pic-two {
         margin-top: 88px;
         position: relative; }
@@ -352,6 +366,13 @@ header {
           left: 0;
           top: -88px;
           width: 100%; }
+        .prensa .content .news .top .pic-two figure {
+          display: table;
+          width: 100%;
+          max-width: 381px;
+          height: 100%;
+          max-height: 284px;
+          overflow: hidden; }
     .prensa .content .news .bottom {
       clear: both;
       margin-top: 7px; }
@@ -368,6 +389,13 @@ header {
           right: -42.9%;
           top: 0;
           width: 41.7%; }
+        .prensa .content .news .bottom .pic-tree figure {
+          display: table;
+          width: 100%;
+          max-width: 512px;
+          height: 100%;
+          max-height: 284px;
+          overflow: hidden; }
 
 .contacto {
   background: #7BB748; }
@@ -381,12 +409,16 @@ header {
     background: #231F20; }
     .contacto .content article {
       width: 100%;
-      background: url("../images/contact-bg.jpg") right top no-repeat #FEDC00;
+      background: url("../images/contact-bg.jpg") right top no-repeat #fedc00;
       height: 380px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       padding: 0 1.2em; }
+      .contacto .content article a {
+        color: #231F20; }
+        .contacto .content article a:hover {
+          text-decoration: underline; }
     .contacto .content .contact-main {
       width: 18.3125rem;
       padding-right: 4.3125rem;
@@ -449,5 +481,3 @@ header {
       background: none repeat scroll 0 0 #7b6b13; }
       .menu-mobile li:hover a, .menu-mobile li.active a {
         color: #fedc00 !important; }
-
-/*# sourceMappingURL=style.css.map */

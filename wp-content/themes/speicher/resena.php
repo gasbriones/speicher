@@ -1,22 +1,33 @@
 <?php
+include("lang/prepend.php");
 $_SESSION['active'] = "resena";
+/*
+Template Name: resena
+*/
 ?>
-<!DOCTYPE html>
-<?php include 'layout/head.php' ?>
+
+<?php get_header(); ?>
 <body class="resena">
-<?php include 'layout/header.php' ?>
-<?php include 'layout/mobile-menu.php' ?>
+<?php get_template_part('header-part') ?>
+<?php get_template_part('mobile-menu') ?>
 <div class="main wrapper">
     <section class="content">
         <article>
-            <h4>FRANCISCO SPEICHER</h4>
-            <p>
-                Nacido en Salta. Estudió en la Escuela de Bellas Artes Tomás Cabrera. Es artista plástico y gestor cultural. Su estilo más representativo es el pop y el tema más recurrente en su obra es la mujer. Realizó múltiples exposiciones individuales y colectivas, así como también organizo eventos y muestras multidisciplinarias culturales. Fue director del Centro Cultural Aristene Papi en dos períodos (2011 y 2012). Incursionó en otras disciplinas como el diseño de indumentaria. Fue elegido Jóven destacado en la Cultura por la Municipalidad de Salta. Trabajó en diversos programas de radio. Actualmente está radicado en la Ciudad de Buenos Aires. Su obra forma parte de colecciones privadas nacionales e internacionales.
-            </p>
+            <?php if ( have_posts() ) : ?>
+                <?php while ( have_posts() ) : the_post();  ?>
+                    <?php
+                        if($_SESSION["lang"] == "es"){
+                            the_content();
+                        }else{
+                            the_field('eng_text_pages');
+                        }
+                    ?>
+                <?php endwhile; ?>
+            <?php endif;?>
         </article>
     </section>
 </div>
-<script src="js/libs/jquery-2.1.3.min.js"></script>
-<script src="js/init.js"></script>
+<?php wp_footer(); ?>
+<script src="<?php echo get_template_directory_uri(); ?>/js/init.js"></script>
 </body>
-</hmtl>
+</html>

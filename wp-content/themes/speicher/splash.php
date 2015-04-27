@@ -19,7 +19,7 @@ Template Name: splash
         </ul>
     </section>
     <section class="logo">
-        <a href="home.php">
+        <a href="?page_id=2">
             <img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" />
         </a>
     </section>
