@@ -44,7 +44,12 @@ a {
 .mobile-btn{
   display: none;
 }
-
+.emty{
+  background: #231F20;
+  color: red;
+  font-size: (18rem/16);
+  text-align: center;
+}
 .wrapper-splash {
   width: 100%;
   max-width: 1280px;
@@ -77,23 +82,23 @@ body {
 
 .bx-wrapper {
   .bx-viewport {
-    border: none;
-    box-shadow: none;
-    left: 0;
+    border: none !important;
+    box-shadow: none !important;
+    left: 0 !important;
   }
   .bx-controls-direction a {
-    height: 39px;
-    width: 20px;
+    height: 39px !important;
+    width: 20px!important;
   }
   .bx-prev {
-    background: url("../images/bx-controls.png") 0 0;
-    left: -50px;
+    background: url("../images/bx-controls.png") 0 0 !important;
+    left: -50px !important;
   }
   .bx-next {
-    background: url("../images/bx-controls.png") -20px 0;
-    right: -50px;
+    background: url("../images/bx-controls.png") -20px 0 !important;
+    right: -50px !important;
     &:hover {
-      background: url("../images/bx-controls.png") -20px 0;
+      background: url("../images/bx-controls.png") -20px 0 !important;
     }
   }
 }
@@ -352,12 +357,12 @@ header {
 
   .gallery-menu {
     padding: 1.2em;
-    width: (255em/14);
+    width: 100%;
     @include box_sizing(padding-box);
 
     .gallery-type {
 
-      li {
+     > li {
         float: left;
         line-height: 1em;
         padding: (3rem/16) (10rem/16);
@@ -367,6 +372,7 @@ header {
           line-height: 1em;
           color: #FEDC00;
           padding: (3rem/16) (10rem/16);
+          text-transform: uppercase;
 
           cursor: pointer;
           &.active,
@@ -379,14 +385,20 @@ header {
             margin-top: (5rem/16);
           > li {
             float: none;
-            color: #7B6B13;
-            text-align: left;
-            font-size: (14rem/16);
-            cursor: pointer;
+
+            a{
+              color: #7B6B13;
+              display: block;
+              text-align: left;
+              font-size: (14rem/16);
+              padding: (3rem/16) (10rem/16);
+            }
             &:hover,
             &.active {
-              background: #7B6B13;
-              color: #FEDC00;
+              a{
+                background: #7B6B13;
+                color: #FEDC00;
+              }
             }
           }
 
@@ -427,31 +439,31 @@ header {
   }
 
   .bx-viewport{
-    margin-top: 3em;
+    margin-top: 3em !important;
   }
 
   .bx-prev {
-    background: url("../images/bx-controls.png") 0 -43px;
+    background: url("../images/bx-controls.png") 0 -43px !important;
     left: -35px;
     &:hover {
-      background: url("../images/bx-controls.png") 0 -43px;
+      background: url("../images/bx-controls.png") 0 -43px !important;
     }
   }
   .bx-next {
-    background: url("../images/bx-controls.png") -20px -43px;
+    background: url("../images/bx-controls.png") -20px -43px !important;
     right: -35px;
     &:hover {
-      background: url("../images/bx-controls.png") -20px -43px;
+      background: url("../images/bx-controls.png") -20px -43px !important;
     }
   }
   .bx-caption{
-    top: 0;
-    bottom: inherit;
+    top: 0 !important;
+    bottom: inherit !important;
     span{
-      background: #FEDC00;
+      background: #FEDC00 !important;
       color: #000000 !important;
-      font-family: gotham;
-      font-weight: 300;
+      font-family: gotham !important;
+      font-weight: 300 !important;
     }
 
   }
@@ -471,7 +483,6 @@ header {
 
     a{
       color: #000000;
-      margin-bottom: (10rem/16);
       display: block;
       &:hover{
         text-decoration: underline;
@@ -518,6 +529,14 @@ header {
             width: 100%;
 
           }
+          figure{
+            display: table;
+            width: 100%;
+            max-width: 385px;
+            height: 100%;
+            max-height: 264px;
+            overflow: hidden;
+          }
         }
 
         .pic-two{
@@ -531,7 +550,14 @@ header {
             left: 0;
             top: -88px;
             width: 100%;
-
+          }
+          figure{
+            display: table;
+            width: 100%;
+            max-width: 381px;
+            height: 100%;
+            max-height: 284px;
+            overflow: hidden;
           }
         }
       }
@@ -552,6 +578,14 @@ header {
             right: -42.9%;
             top: 0;
             width: 41.7%;
+          }
+          figure{
+            display: table;
+            width: 100%;
+            max-width: 512px;
+            height: 100%;
+            max-height: 284px;
+            overflow: hidden;
           }
         }
       }
@@ -578,6 +612,12 @@ header {
       height: 380px;
       @include box_sizing(border-box);
       padding: 0 1.2em;
+      a{
+        color: #231F20;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
     }
     .contact-main{
       width: (293rem/16);

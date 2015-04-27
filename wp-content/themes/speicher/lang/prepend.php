@@ -1,9 +1,10 @@
 <?php
     session_start();
-    if ($_GET["idioma"]) {
-        $_SESSION["idioma"] = $_GET["idioma"];
-    } elseif (!$_SESSION["idioma"]) {
-        $_SESSION["idioma"] = "es";
+    if ($_GET["lang"]) {
+        $_SESSION["lang"] = $_GET["lang"];
+    } elseif (!$_SESSION["lang"]) {
+        $_SESSION["lang"] = "es";
     }
-    include($_SESSION["idioma"] . ".php");
+    include($_SESSION["lang"] . ".php");
+
 ?>

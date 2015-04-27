@@ -1,47 +1,51 @@
 <?php
+include("lang/prepend.php");
 $_SESSION['active'] = "contacto";
+/*
+Template Name: contacto
+*/
 ?>
-<!DOCTYPE html>
-<?php include 'layout/head.php' ?>
+
+<?php get_header(); ?>
 <body class="contacto">
-<?php include 'layout/header.php' ?>
-<?php include 'layout/mobile-menu.php' ?>
+<?php get_template_part('header-part') ?>
+<?php get_template_part('mobile-menu') ?>
 <div class="main wrapper">
     <section class="content clearfix">
         <article>
             <div class="contact-main">
-                <h4>CONTACTO</h4>
+                <h4><?php echo CONTACTO_TITULO;?></h4>
                 <div>
-                    E-mail:<br/> franciscospeicher@hotmail.com
+                    E-mail:<br/> <a href="mailto:franciscospeicher@hotmail.com">franciscospeicher@hotmail.com</a>
                 </div>
                 <ul class="social-micro">
                     <li>
-                        <a href="#" class="fb"></a>
+                        <a href="https://www.facebook.com/pages/FRANCISCO-SPEICHER-Artista-Plastico/110291662394677" target="_blank" class="fb"></a>
                     </li>
                     <li>
-                        <a href="#" class="tw"></a>
+                        <a href="https://twitter.com/franspeicher" class="tw" target="_blank"></a>
                     </li>
                     <li>
-                        <a href="#" class="ins"></a>
+                        <a href="https://instagram.com/speicherfrancisco" target="_blank" class="ins"></a>
                     </li>
                 </ul>
 
-                <form class="contact-form">
-                    <h4>FORMULARIO</h4>
-                    <label>Nombre:</label>
-                    <input type="text" />
-                    <label>Apellido:</label>
-                    <input type="text" />
+                <form class="contact-form" id="contact-form">
+                    <h4><?php echo CONTACTO_FORMULARIO;?></h4>
+                    <label><?php echo CONTACTO_NOMBRE;?>:</label>
+                    <input type="text" name="nombre" />
+                    <label><?php echo CONTACTO_APELLIDO;?>:</label>
+                    <input type="text" name="apellido" />
                     <label>E-mail:</label>
-                    <input type="text" />
-                    <input type="submit" value="ENVIAR" />
+                    <input type="text"  name="email"/>
+                    <input type="submit" value="<?php echo CONTACTO_ENVIAR;?>" />
                 </form>
             </div>
 
         </article>
     </section>
 </div>
-<script src="js/libs/jquery-2.1.3.min.js"></script>
-<script src="js/init.js"></script>
+<?php wp_footer(); ?>
+<script src="<?php echo get_template_directory_uri(); ?>/js/init.js"></script>
 </body>
-</hmtl>
+</html>

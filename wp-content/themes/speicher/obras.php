@@ -1,83 +1,102 @@
 <?php
+include("lang/prepend.php");
 $_SESSION['active'] = "obras";
+
+/*
+Template Name: obras
+*/
+
+$args1 = array(
+    'cat' => $_GET['cat'],
+    'tag' => $_GET['tag'],
+    'orderby' => 'ASC' // Sort by this meta ke
+);
+
+$query1 = new WP_Query($args1);
 ?>
-<!DOCTYPE html>
-<?php include 'layout/head.php' ?>
+<?php get_header(); ?>
 <body class="obras">
-<?php include 'layout/header.php' ?>
-<?php include 'layout/mobile-menu.php' ?>
+<?php get_template_part('header-part') ?>
+<?php get_template_part('mobile-menu') ?>
 <div class="main wrapper">
     <section class="content">
         <div class="col col-left clearfix">
             <article class="clearfix">
-                <h4>OBRAS</h4>
-
-                <p>
-                    "La mayoría de mis obras representan mujeres porque creo en la belleza innata del género femenino.
-                    Pero también pinto personajes masculinos, aggiornados con un glamour exaltado, bien pop. Me gusta
-                    encontrar belleza en la fealdad, en la deformidad, porque creo que todos somos un poco freaks y
-                    diferentes en el fondo"
-                </p>
+                <?php if ( have_posts() ) : ?>
+                    <?php while ( have_posts() ) : the_post();  ?>
+                        <?php
+                        if($_SESSION["lang"] == "es"){
+                            the_content();
+                        }else{
+                            the_field('eng_text_pages');
+                        }
+                        ?>
+                    <?php endwhile; ?>
+                <?php endif;?>
             </article>
+
             <div class="gallery-menu clearfix">
                 <ul class="gallery-type">
-                    <li><span class="active">+ PINTURAS</span>
+                    <li><span class="<?php echo $active = $_GET["cat"]== '3' ? 'active' : ''; ?>">+ <?php echo OBRAS_PINTURAS;?></span>
                         <ul>
-                            <li class="active">
-                                2012
-                            </li>
-                            <li>
-                                2013
-                            </li>
-                            <li>
-                                2014
-                            </li>
-                            <li>
-                                2015
-                            </li>
+                            <?php
+                            $tags = get_tags();
+                            foreach ( $tags as $tag ):
+                                $tag_link = get_tag_link( $tag->term_id );
+                            ?>
+                                <li class="<?php echo $active = $_GET["tag"]== $tag->name && $_GET["cat"]== '3' ? 'active' : ''; ?>">
+                                    <a href="?page_id=18&cat=3&tag=<?php echo $tag->name ?>"><?php echo $tag->name ?></a>
+                                </li>
+                            <?php endforeach?>
+
                         </ul>
                     </li>
-                    <li><span>+ DIBUJOS</span>
+                    <li><span class="<?php echo $active = $_GET["cat"]== '7' ? 'active' : ''; ?>">+ <?php echo OBRAS_DIBUJOS;?></span>
                         <ul class="years">
-                            <li>
-                                2014
-                            </li>
-                            <li>
-                                2015
-                            </li>
+                            <?php
+                                $tags = get_tags();
+                                foreach ( $tags as $tag ):
+                                    $tag_link = get_tag_link( $tag->term_id );
+                            ?>
+                                <li class="<?php echo $active = $_GET["tag"]== $tag->name && $_GET["cat"]== '7' ? 'active' : ''; ?>">
+                                    <a href="?page_id=18&cat=7&tag=<?php echo $tag->name ?>"><?php echo $tag->name ?></a>
+                                </li>
+                            <?php endforeach?>
                         </ul>
                     </li>
                 </ul>
             </div>
             <div class="thumb-container clearfix">
                 <ul class="thumb">
-                    <li><a data-slide-index="0"><img src="images/gallery-sample.jpg" width="74" height="74"/></a></li>
-                    <li><a data-slide-index="1"><img src="images/gallery-sample.jpg" width="74" height="74"/></a></li>
-                    <li><a data-slide-index="2"><img src="images/gallery-sample.jpg" width="74" height="74"/></a></li>
-                    <li><a data-slide-index="3"><img src="images/gallery-sample.jpg" width="74" height="74"/></a></li>
-                    <li><a data-slide-index="4"><img src="images/gallery-sample.jpg" width="74" height="74"/></a></li>
-                    <li><a data-slide-index="5"><img src="images/gallery-sample.jpg" width="74" height="74"/></a></li>
-                    <li><a data-slide-index="6"><img src="images/gallery-sample.jpg" width="74" height="74"/></a></li>
-                    <li><a data-slide-index="7"><img src="images/gallery-sample.jpg" width="74" height="74"/></a></li>
+                    <?php
+                    $i = 0;
+                    if ($query1->have_posts()) :
+                        while ($query1->have_posts()) : $query1->the_post();
 
+                        ?>
+                            <li><a data-slide-index="<?php echo $i;?>"><img src="<?php echo the_field('image') ?>" title="" width="74" height="74" /></a></li>
+                        <?php $i++;endwhile; endif;
+                    ?>
+                </ul>
             </div>
         </div>
         <div class="col col-right">
             <ul class="slider">
-                <li><img src="images/gallery-sample.jpg" title="Hola mundo" /></li>
-                <li><img src="images/gallery-sample.jpg" title="Hola mundo" /></li>
-                <li><img src="images/gallery-sample.jpg" title="Hola mundo" /></li>
-                <li><img src="images/gallery-sample.jpg" title="Hola mundo"/></li>
-                <li><img src="images/gallery-sample.jpg" title="Hola mundo"/></li>
-                <li><img src="images/gallery-sample.jpg" title="Hola mundo"/></li>
-                <li><img src="images/gallery-sample.jpg" title="Hola mundo"/></li>
-                <li><img src="images/gallery-sample.jpg" title="Hola mundo"/></li>
+
+                <?php
+                if ($query1->have_posts()) :
+                    while ($query1->have_posts()) : $query1->the_post(); ?>
+                        <li><img src="<?php echo the_field('image') ?>" title="<?php global $more; $more = 1; $_SESSION["lang"] == "es" ? the_content() : the_field('eng_text_pages'); ?>" /></li>
+                    <?php endwhile;
+                else:
+                    echo '<li class="emty">No se encontraron obras</li>';
+                endif;?>
+
             </ul>
         </div>
     </section>
 </div>
-<script src="js/libs/jquery-2.1.3.min.js"></script>
-<script src="js/libs/jquery.bxslider.min.js"></script>
-<script src="js/init.js"></script>
+<?php wp_footer(); ?>
+<script src="<?php echo get_template_directory_uri(); ?>/js/init.js"></script>
 </body>
-</hmtl>
+</html>
