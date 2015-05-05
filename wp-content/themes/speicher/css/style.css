@@ -218,7 +218,7 @@ header {
   .resena .content {
     padding: 0;
     height: 41.5em;
-    background: url("../images/resena-bg.jpg") black top center no-repeat; }
+    background: url("../images/resena-bg.jpg") #000000 top center no-repeat; }
 
 .obras {
   background: #FF1A00; }
@@ -350,7 +350,6 @@ header {
           bottom: -67px;
           width: 100%; }
         .prensa .content .news .top .pic-one figure {
-          display: table;
           width: 100%;
           max-width: 385px;
           height: 100%;
@@ -368,7 +367,6 @@ header {
           top: -88px;
           width: 100%; }
         .prensa .content .news .top .pic-two figure {
-          display: table;
           width: 100%;
           max-width: 381px;
           height: 100%;
@@ -391,7 +389,6 @@ header {
           top: 0;
           width: 41.7%; }
         .prensa .content .news .bottom .pic-tree figure {
-          display: table;
           width: 100%;
           max-width: 512px;
           height: 100%;
@@ -410,7 +407,7 @@ header {
     background: #231F20; }
     .contacto .content article {
       width: 100%;
-      background: url("../images/contact-bg.jpg") right top no-repeat #fedc00;
+      background: url("../images/contact-bg.jpg") right top no-repeat #FEDC00;
       height: 380px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -482,3 +479,5 @@ header {
       background: none repeat scroll 0 0 #7b6b13; }
       .menu-mobile li:hover a, .menu-mobile li.active a {
         color: #fedc00 !important; }
+
+/*# sourceMappingURL=style.css.map */
