@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7bae5a6-d2ed-407b-833c-b06aa231a994" name="Default" comment="" />
+    <list default="true" id="e3398adb-6ba5-49df-8914-696f89353f8e" name="Default" comment="" />
     <ignored path="speicher.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,24 +23,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="obras.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/obras.php">
+      <file leaf-file-name="mobile-menu.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/mobile-menu.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="32" column="26" selection-start="656" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="1605">
+=======
+            <state line="16" column="5" selection-start="862" selection-end="862" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="es.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="15" column="40" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
+=======
+            <state line="24" column="7" selection-start="609" selection-end="609" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="en.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,15 +101,25 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="29" column="61" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="765">
+=======
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="50" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="645">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacto.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/contacto.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="35" column="55" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="840">
+=======
+            <state line="2" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.04249292" vertical-offset="0" max-vertical-offset="706">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
               <folding />
             </state>
           </provider>
@@ -109,7 +128,11 @@
       <file leaf-file-name="header-part.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header-part.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="30" column="30" selection-start="1431" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="1095">
+=======
+            <state line="46" column="30" selection-start="2158" selection-end="2185" vertical-scroll-proportion="-26.875" vertical-offset="45" max-vertical-offset="1095">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
               <folding />
             </state>
           </provider>
@@ -122,38 +145,37 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/layout/header.php" />
-        <option value="$PROJECT_DIR$/wp-includes/general-template.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/js/init.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/prepend.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/mobile-menu.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/resena.php" />
+        <option value="$PROJECT_DIR$/layout/head.php" />
+        <option value="$PROJECT_DIR$/layout/header.php" />
+        <option value="$PROJECT_DIR$/layout/mobile-menu.php" />
+        <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/contacto.php" />
+        <option value="$PROJECT_DIR$/obras.php" />
+        <option value="$PROJECT_DIR$/prensa.php" />
+        <option value="$PROJECT_DIR$/resena.php" />
+        <option value="$PROJECT_DIR$/js/init.js" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/css/mediaqueries.scss" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/layout/head.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/header-part.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/obras.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/prensa.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/contacto.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/speicher/splash.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/obras.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/speicher/mobile-menu.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
-    <option name="width" value="1368" />
-    <option name="height" value="745" />
+    <option name="width" value="1602" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -254,96 +276,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speicher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speicher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speicher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speicher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speicher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speicher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speicher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speicher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogs-leono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ficip" />
+    <property name="LayoutCode.rearrangeEntriesSCSS" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wp-content/themes/speicher" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wp-content/themes/speicher" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js/libs" />
     </key>
   </component>
   <component name="RunManager">
@@ -365,31 +314,41 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c7bae5a6-d2ed-407b-833c-b06aa231a994" name="Default" comment="" />
-      <created>1430001710837</created>
-      <updated>1430001710837</updated>
+      <changelist id="e3398adb-6ba5-49df-8914-696f89353f8e" name="Default" comment="" />
+      <created>1429539162104</created>
+      <updated>1429539162104</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-1" y="0" width="1368" height="745" extended-state="6" />
     <editor active="true" />
+=======
+    <frame x="-1" y="0" width="1602" height="877" extended-state="7" />
+    <editor active="false" />
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25377643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26251605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -412,48 +371,85 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/obras.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="26" selection-start="656" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="1605">
+=======
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/splash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="810">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="40" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
+=======
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="34" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="375">
+=======
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/obras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="26" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1575">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="359" column="15" selection-start="6666" selection-end="6666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10815">
+=======
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="799" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1125">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/prensa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="900">
+=======
+    <entry file="file://$PROJECT_DIR$/wp-content/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/resena.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="22" selection-start="428" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="570">
+=======
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/splash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/splash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="35" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="810">
@@ -466,25 +462,43 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="61" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+=======
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/contacto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="55" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="840">
+=======
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/obras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="36" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1320">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header-part.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="30" selection-start="1431" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="1095">
+=======
+    <entry file="file://$PROJECT_DIR$/wp-content/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="370" />
       </provider>
@@ -542,90 +556,152 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="24" selection-start="155" selection-end="155" vertical-scroll-proportion="2.625" vertical-offset="138" max-vertical-offset="690" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/mobile-menu.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330" />
+=======
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/prepend.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="5" column="33" selection-start="139" selection-end="164" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="225" />
+=======
+        <state line="16" column="0" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.33472803" vertical-offset="0" max-vertical-offset="717" />
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="1" column="0" selection-start="6" selection-end="34" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/send-mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="4" selection-end="808" vertical-scroll-proportion="-0.625" vertical-offset="15" max-vertical-offset="645" />
+=======
+        <state line="17" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.2549575" vertical-offset="0" max-vertical-offset="706" />
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/resena.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="2" column="0" selection-start="4" selection-end="808" vertical-scroll-proportion="-0.625" vertical-offset="15" max-vertical-offset="645" />
+=======
+        <state line="21" column="7" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/contacto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780" />
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/splash.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="23" column="22" selection-start="428" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="570">
+=======
+        <state line="2" column="21" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="810">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/obras.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="32" column="26" selection-start="656" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="1605">
+=======
+        <state line="32" column="26" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1575">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/prensa.php">
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="24" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="900">
+=======
+        <state line="18" column="27" selection-start="799" selection-end="807" vertical-scroll-proportion="8.125" vertical-offset="270" max-vertical-offset="1125">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="30" column="30" selection-start="1431" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="1095">
+=======
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="730">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header-part.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="1431" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/contacto.php">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="35" column="55" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="840">
+=======
+        <state line="46" column="30" selection-start="2158" selection-end="2185" vertical-scroll-proportion="-26.875" vertical-offset="45" max-vertical-offset="1095">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/es.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/mobile-menu.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="15" column="40" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
+=======
+        <state line="16" column="5" selection-start="862" selection-end="862" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/lang/en.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="16" column="34" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="375">
+=======
+        <state line="24" column="7" selection-start="609" selection-end="609" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/header.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="29" column="61" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="765">
+=======
+        <state line="24" column="50" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="645">
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/speicher/splash.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="20" column="26" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-1.2083334" vertical-offset="271" max-vertical-offset="810">
           <folding>
             <element signature="e#6#33#0" expanded="true" />
           </folding>
+=======
+        <state line="2" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.04249292" vertical-offset="0" max-vertical-offset="706">
+          <folding />
+>>>>>>> 7703da7e5b94e2f540c6fc4b8c8526503d2554f9
         </state>
       </provider>
     </entry>
