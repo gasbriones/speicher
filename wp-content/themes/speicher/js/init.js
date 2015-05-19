@@ -21,7 +21,8 @@ jQuery(document).ready(function () {
             jQuery('.slider').bxSlider({
                 pagerCustom: jQuery('.thumb'),
                 slideWidth:583,
-                captions: true
+                captions: true,
+                adaptiveHeight:true
             });
         break;
        case 'contacto':

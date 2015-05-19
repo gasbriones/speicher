@@ -69,13 +69,12 @@ $query1 = new WP_Query($args1);
             <div class="thumb-container clearfix">
                 <ul class="thumb">
                     <?php
-                    $i = 0;
-                    if ($query1->have_posts()) :
-                        while ($query1->have_posts()) : $query1->the_post();
+                        $i = 0;
+                        if ($query1->have_posts()) :
+                            while ($query1->have_posts()) : $query1->the_post();
                         ?>
                             <li><a data-slide-index="<?php echo $i;?>"><img src="<?php echo the_field('image') ?>" title="" width="74" height="74" /></a></li>
-                        <?php $i++;endwhile; endif;
-                    ?>
+                        <?php $i++;endwhile; endif;?>
                 </ul>
             </div>
         </div>
@@ -89,7 +88,6 @@ $query1 = new WP_Query($args1);
                 else:
                     echo '<li class="emty">No se encontraron obras</li>';
                 endif;?>
-
             </ul>
         </div>
     </section>

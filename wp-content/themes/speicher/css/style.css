@@ -60,7 +60,8 @@ body {
 .bx-wrapper .bx-viewport {
   border: none !important;
   box-shadow: none !important;
-  left: 0 !important; }
+  left: 0 !important;
+  background: #000000 !important; }
 .bx-wrapper .bx-controls-direction a {
   height: 39px !important;
   width: 20px !important; }
@@ -304,6 +305,9 @@ header {
       color: #000000 !important;
       font-family: gotham !important;
       font-weight: 300 !important; }
+  .obras .slider img {
+    max-height: 500px !important;
+    margin: 0 auto !important; }
 
 .prensa {
   background: #004BDE; }
