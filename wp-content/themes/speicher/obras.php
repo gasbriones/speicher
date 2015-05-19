@@ -19,7 +19,7 @@ $query1 = new WP_Query($args1);
 <?php get_template_part('header-part') ?>
 <?php get_template_part('mobile-menu') ?>
 <div class="main wrapper">
-    <section class="content">
+    <section class="content clearfix">
         <div class="col col-left clearfix">
             <article class="clearfix">
                 <?php if ( have_posts() ) : ?>
@@ -40,28 +40,29 @@ $query1 = new WP_Query($args1);
                     <li><span class="<?php echo $active = $_GET["cat"]== '3' ? 'active' : ''; ?>">+ <?php echo OBRAS_PINTURAS;?></span>
                         <ul>
                             <?php
-                            $tags = get_tags();
+                            $tags = get_tags('order=DESC');
                             foreach ( $tags as $tag ):
-                                $tag_link = get_tag_link( $tag->term_id );
+                                if(tagHavePost(3,$tag)):
                             ?>
                                 <li class="<?php echo $active = $_GET["tag"]== $tag->name && $_GET["cat"]== '3' ? 'active' : ''; ?>">
                                     <a href="?page_id=18&cat=3&tag=<?php echo $tag->name ?>"><?php echo $tag->name ?></a>
                                 </li>
-                            <?php endforeach?>
+                            <?php endif;endforeach; ?>
 
                         </ul>
                     </li>
                     <li><span class="<?php echo $active = $_GET["cat"]== '7' ? 'active' : ''; ?>">+ <?php echo OBRAS_DIBUJOS;?></span>
                         <ul class="years">
                             <?php
-                                $tags = get_tags();
+                                $tags = get_tags('order=DESC');
                                 foreach ( $tags as $tag ):
-                                    $tag_link = get_tag_link( $tag->term_id );
+
+                                    if(tagHavePost(7,$tag)):
                             ?>
                                 <li class="<?php echo $active = $_GET["tag"]== $tag->name && $_GET["cat"]== '7' ? 'active' : ''; ?>">
                                     <a href="?page_id=18&cat=7&tag=<?php echo $tag->name ?>"><?php echo $tag->name ?></a>
                                 </li>
-                            <?php endforeach?>
+                            <?php endif;endforeach; ?>
                         </ul>
                     </li>
                 </ul>

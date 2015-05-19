@@ -25,7 +25,7 @@
                 </a>
             </li>
             <li class="item <?php echo $active = $_SESSION["active"]== 'obras' ? 'active' : ''; ?>">
-                <a href="?page_id=18&cat=3&tag=2015">
+                <a href="?page_id=18&cat=3&tag=<?php echo getActiveTag(3)?>">
                     <div class="item-bg">
                         <div class="bg obr"></div>
                         <span><?php echo MENU_OBRAS;?></span>

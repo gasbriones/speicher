@@ -38,3 +38,34 @@ function wpse_sendmail() {
 
     exit;
 }
+
+
+function getActiveTag($cat){
+    $tags = get_tags('order=DESC');
+    foreach ( $tags as $tag ){
+
+        $args = array(
+            'cat' => $cat,
+            'tag' => $tag->name,
+        );
+        $query = new WP_Query($args);
+
+        if($query->have_posts()){
+           return $tag->name;
+        }
+    }
+}
+
+function tagHavePost($cat,$tag){
+    $args = array(
+        'cat' => $cat,
+        'tag' => $tag->name,
+    );
+    $query = new WP_Query($args);
+
+    if($query->have_posts()){
+        return true;
+    }else{
+        return false;
+    }
+}
