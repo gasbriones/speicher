@@ -6,7 +6,7 @@
         <a href="?page_id=14"><?php echo MENU_RESENA;?></a>
     </li>
     <li class="item <?php echo $active = $_SESSION["active"]== 'obras' ? 'active' : ''; ?>">
-        <a href="?page_id=18&cat=3&tag=2015"><?php echo MENU_OBRAS;?></a>
+        <a href="?page_id=18&cat=3&tag=<?php echo getActiveTag(3)?>"><?php echo MENU_OBRAS;?></a>
     </li>
     <li class="item <?php echo $active = $_SESSION["active"]== 'prensa' ? 'active' : ''; ?>">
         <a href="?page_id=54"><?php echo MENU_PRENSA;?></a>

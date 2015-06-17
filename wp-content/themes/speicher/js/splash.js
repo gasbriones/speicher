@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
     var back = ["#FFFE0C", "#5AFEFF", "#000000", '#5B00E3', '#FF1A00', '#652D90', "#FFFE0C", "#5AFEFF", "#000000", '#5B00E3', '#FF1A00', '#652D90'],

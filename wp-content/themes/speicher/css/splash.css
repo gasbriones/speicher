@@ -4,8 +4,13 @@
   src: url("../fonts/gotham-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-bold.woff") format("woff"), url("../fonts/gotham-bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-.pictures .pics li {
-  float: left; }
+.pictures .pics {
+  width: 100%;
+  display: block; }
+  .pictures .pics li {
+    float: left;
+    float: left;
+    width: 14.28%; }
 
 .logo {
   position: absolute;
@@ -63,3 +68,5 @@
           background-position: -153px 0; }
       .footer .social li:first-child a {
         margin-left: 0; }
+
+/*# sourceMappingURL=splash.css.map */

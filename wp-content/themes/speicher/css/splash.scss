@@ -10,8 +10,12 @@
 
 .pictures{
   .pics{
+    width: 100%;
+    display: block;
     li{
       float: left;
+      float: left;
+      width: 14.28%;
     }
   }
 }
